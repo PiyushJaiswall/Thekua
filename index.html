@@ -1,0 +1,3044 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traditional Snacks Business Plan - Comprehensive Research & Roadmap</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+        }
+        
+        .nav-tabs {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+        
+        .tab-button {
+            background: white;
+            color: #667eea;
+            border: 2px solid #667eea;
+            padding: 15px 30px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        .tab-button:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .tab-button.active {
+            background: #667eea;
+            color: white;
+        }
+        
+        .tab-content {
+            display: none;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            animation: fadeIn 0.5s;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        h2 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        h3 {
+            color: #764ba2;
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        
+        h4 {
+            color: #555;
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        
+        .product-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 25px;
+            border-radius: 15px;
+            color: white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        
+        .company-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #667eea;
+        }
+        
+        .company-card h4 {
+            color: #667eea;
+            font-size: 1.3em;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        th {
+            background: #667eea;
+            color: white;
+            padding: 15px;
+            text-align: left;
+        }
+        
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        tr:hover {
+            background: #f8f9fa;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .stat-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            color: white;
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            display: block;
+        }
+        
+        .stat-label {
+            font-size: 1em;
+            margin-top: 10px;
+        }
+        
+        .roadmap {
+            position: relative;
+            padding-left: 50px;
+            margin: 30px 0;
+        }
+        
+        .roadmap::before {
+            content: '';
+            position: absolute;
+            left: 20px;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: #667eea;
+        }
+        
+        .roadmap-item {
+            position: relative;
+            margin-bottom: 40px;
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+        }
+        
+        .roadmap-item::before {
+            content: '';
+            position: absolute;
+            left: -37px;
+            top: 25px;
+            width: 15px;
+            height: 15px;
+            background: #667eea;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+        
+        .role-card {
+            background: white;
+            border: 2px solid #667eea;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .role-card h4 {
+            color: #667eea;
+            font-size: 1.4em;
+            margin-bottom: 15px;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+        
+        .highlight-box {
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .success-box {
+            background: #d4edda;
+            border-left: 5px solid #28a745;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .info-box {
+            background: #d1ecf1;
+            border-left: 5px solid #17a2b8;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .process-step {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        
+        .step-number {
+            background: #667eea;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+        
+        .step-content {
+            flex-grow: 1;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .tab-button {
+                padding: 10px 15px;
+                font-size: 0.9em;
+            }
+            
+            .tab-content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🥜 Traditional Snacks Business Plan</h1>
+            <p class="subtitle">Comprehensive Market Research & Business Roadmap</p>
+            <p style="margin-top: 15px; color: #888;">Makhana • Thekua • Sattu • Nimki/Mathri</p>
+        </header>
+        
+        <div class="nav-tabs">
+            <button class="tab-button active" onclick="showTab('overview')">📊 Market Overview</button>
+            <button class="tab-button" onclick="showTab('products')">🍪 Product Research</button>
+            <button class="tab-button" onclick="showTab('competitors')">🏢 Competitors</button>
+            <button class="tab-button" onclick="showTab('roadmap')">🗺️ Business Roadmap</button>
+            <button class="tab-button" onclick="showTab('roles')">👥 Team Roles</button>
+            <button class="tab-button" onclick="showTab('requirements')">📋 Requirements</button>
+            <button class="tab-button" onclick="showTab('finance')">💰 Finance & Pricing</button>
+            <button class="tab-button" onclick="showTab('operations')">⚙️ Operations</button>
+        </div>
+
+        <!-- Market Overview Tab -->
+        <div id="overview" class="tab-content active">
+            <h2>📊 Indian Snacks Market Overview</h2>
+            
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <span class="stat-number">₹59,552</span>
+                    <span class="stat-label">Crore Total Market (2024)</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">8.63%</span>
+                    <span class="stat-label">CAGR (2025-2033)</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">₹1,01,811</span>
+                    <span class="stat-label">Crore Projected (2033)</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">67%</span>
+                    <span class="stat-label">Prefer Makhana & Dry Fruits</span>
+                </div>
+            </div>
+            
+            <div class="success-box">
+                <h3>✅ Market Opportunity Highlights</h3>
+                <ul>
+                    <li><strong>Rising Health Consciousness:</strong> 60% of consumers seek organic, additive-free snacks</li>
+                    <li><strong>Growing Urbanization:</strong> Ready-to-eat snacks projected to reach ₹1,185 billion by 2025</li>
+                    <li><strong>Traditional Snacks Dominance:</strong> Ethnic/traditional snacks market valued at ₹40,395 crore (2021)</li>
+                    <li><strong>Export Potential:</strong> India exports traditional snacks to 80+ countries</li>
+                    <li><strong>E-commerce Growth:</strong> 125 million new online shoppers in past 3 years</li>
+                </ul>
+            </div>
+            
+            <h3>Key Market Trends</h3>
+            <div class="product-grid">
+                <div class="product-card">
+                    <h4>🌱 Health & Wellness</h4>
+                    <p>38% of Indians are strictly vegetarian. Demand for natural, organic, vegan, low-calorie, and gluten-free snacks is booming.</p>
+                </div>
+                <div class="product-card">
+                    <h4>🏪 Retail Expansion</h4>
+                    <p>Modern retail stores replacing traditional kirana shops. Better shelf visibility and branding opportunities.</p>
+                </div>
+                <div class="product-card">
+                    <h4>📱 Digital Dominance</h4>
+                    <p>900+ million internet users in India. Online food delivery and direct-to-consumer brands growing rapidly.</p>
+                </div>
+                <div class="product-card">
+                    <h4>🎯 Premium Segment</h4>
+                    <p>Rising disposable income (₹2,485 per capita) driving demand for premium and gourmet snacks.</p>
+                </div>
+            </div>
+            
+            <h3>Consumer Behavior Insights</h3>
+            <table>
+                <tr>
+                    <th>Insight</th>
+                    <th>Percentage</th>
+                    <th>Impact</th>
+                </tr>
+                <tr>
+                    <td>Consumers snacking twice daily</td>
+                    <td>70%</td>
+                    <td>High demand frequency</td>
+                </tr>
+                <tr>
+                    <td>Snacking for high energy</td>
+                    <td>82%</td>
+                    <td>Nutritional value matters</td>
+                </tr>
+                <tr>
+                    <td>Snacking for mood enhancement</td>
+                    <td>84%</td>
+                    <td>Emotional connection to snacks</td>
+                </tr>
+                <tr>
+                    <td>Hunt for personalized snacks</td>
+                    <td>80%</td>
+                    <td>Customization opportunities</td>
+                </tr>
+                <tr>
+                    <td>Millennials preferring makhana</td>
+                    <td>59%</td>
+                    <td>Young demographic target</td>
+                </tr>
+            </table>
+        </div>
+        
+        <!-- Product Research Tab -->
+        <div id="products" class="tab-content">
+            <h2>🍪 Detailed Product Research</h2>
+            
+            <div class="product-card" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                <h3 style="color: white;">🥜 MAKHANA (Fox Nuts)</h3>
+            </div>
+            
+            <h3>Market Analysis - Makhana</h3>
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <span class="stat-number">₹8.5B</span>
+                    <span class="stat-label">Market Value (2024)</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">9.22%</span>
+                    <span class="stat-label">CAGR Growth Rate</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">₹19.6B</span>
+                    <span class="stat-label">Projected Value (2033)</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">75,000</span>
+                    <span class="stat-label">Tons Annual Production</span>
+                </div>
+            </div>
+            
+            <div class="info-box">
+                <h4>Nutritional Benefits</h4>
+                <ul>
+                    <li>High in protein, calcium, magnesium, and antioxidants</li>
+                    <li>Low in calories - ideal for weight management</li>
+                    <li>Gluten-free and suitable for diabetes patients</li>
+                    <li>Rich in fiber - aids digestion</li>
+                    <li>Low glycemic index</li>
+                </ul>
+            </div>
+            
+            <h4>Production Process (7 Steps)</h4>
+            <div class="process-step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <strong>Water Lily Cultivation:</strong> Seeds germinate in ponds (Bihar, Darbhanga, Madhubani regions)
+                </div>
+            </div>
+            <div class="process-step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <strong>Seed Collection:</strong> Harvested from pond bottom by skilled workers (Mallah community)
+                </div>
+            </div>
+            <div class="process-step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <strong>Cleaning & Drying:</strong> Seeds cleaned of mud, shells. Sun-dried to reduce 20% moisture
+                </div>
+            </div>
+            <div class="process-step">
+                <div class="step-number">4</div>
+                <div class="step-content">
+                    <strong>First Roasting:</strong> High-temperature roasting to make seed coats brittle
+                </div>
+            </div>
+            <div class="process-step">
+                <div class="step-number">5</div>
+                <div class="step-content">
+                    <strong>Popping:</strong> Seeds popped to reveal white kernel inside
+                </div>
+            </div>
+            <div class="process-step">
+                <div class="step-number">6</div>
+                <div class="step-content">
+                    <strong>Polishing & Grading:</strong> Sorted by size (Sutta grades 3-6), polished for appearance
+                </div>
+            </div>
+            <div class="process-step">
+                <div class="step-number">7</div>
+                <div class="step-content">
+                    <strong>Final Roasting:</strong> Rotary roaster for crunchiness and flavor addition
+                </div>
+            </div>
+            
+            <h4>Cost Analysis - Makhana Cultivation</h4>
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Cost per Hectare</th>
+                    <th>Notes</th>
+                </tr>
+                <tr>
+                    <td>Pond System Total Cost</td>
+                    <td>₹63,211</td>
+                    <td>Lower cost, traditional method</td>
+                </tr>
+                <tr>
+                    <td>Field System Total Cost</td>
+                    <td>₹76,357</td>
+                    <td>Requires irrigation, fertilizers</td>
+                </tr>
+                <tr>
+                    <td>Average Yield</td>
+                    <td>18.9 quintal/ha</td>
+                    <td>2,037 kg per hectare</td>
+                </tr>
+                <tr>
+                    <td>Price per Quintal</td>
+                    <td>₹15,000</td>
+                    <td>Market rate for raw seeds</td>
+                </tr>
+                <tr>
+                    <td>Gross Return</td>
+                    <td>₹2,83,500</td>
+                    <td>Before processing</td>
+                </tr>
+                <tr>
+                    <td>Net Profit</td>
+                    <td>₹1,56,395</td>
+                    <td>Benefit-Cost Ratio: 1.22</td>
+                </tr>
+            </table>
+            
+            <hr style="margin: 40px 0;">
+            
+            <div class="product-card" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                <h3 style="color: white;">🍩 THEKUA (Traditional Sweet Snack)</h3>
+            </div>
+            
+            <h3>Market Analysis - Thekua</h3>
+            <div class="info-box">
+                <h4>Cultural Significance</h4>
+                <ul>
+                    <li><strong>Origin:</strong> Bihar and Jharkhand, especially popular during Chhath Puja</li>
+                    <li><strong>Traditional Recipe:</strong> Wheat flour, jaggery (gud), ghee, cardamom - deep fried</li>
+                    <li><strong>Religious Importance:</strong> Used as prasad during Chhath festival</li>
+                    <li><strong>Shelf Life:</strong> 3-6 months when properly packaged</li>
+                    <li><strong>Growing Market:</strong> Expanding beyond festivals to year-round consumption</li>
+                </ul>
+            </div>
+            
+            <h4>Success Stories</h4>
+            <div class="company-card">
+                <h4>Desi Tesi (Founded 2023)</h4>
+                <ul>
+                    <li><strong>Founders:</strong> Tilak Pandit (23 years old) from Assam</li>
+                    <li><strong>Initial Investment:</strong> ₹10,000 (2 kg thekua for college fest)</li>
+                    <li><strong>Revenue:</strong> ₹1 Crore+ annually</li>
+                    <li><strong>Growth:</strong> Sold out at first event, scaled through Instagram marketing</li>
+                    <li><strong>Distribution:</strong> Amazon, Direct Orders from Bihar, Delhi, Mumbai</li>
+                    <li><strong>Key Success:</strong> Leveraged nostalgia and festival demand (Chhath Puja)</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>Two Bengal Teens Startup</h4>
+                <ul>
+                    <li><strong>Founders:</strong> Jayanta & Kailash</li>
+                    <li><strong>Initial Capital:</strong> ₹10,000</li>
+                    <li><strong>Revenue:</strong> ₹1 Crore+</li>
+                    <li><strong>Marketing:</strong> Instagram as primary launchpad</li>
+                    <li><strong>Key Insight:</strong> Identified quality gap in roadside thekua vendors</li>
+                </ul>
+            </div>
+            
+            <h4>Product Variants</h4>
+            <table>
+                <tr>
+                    <th>Variant</th>
+                    <th>Main Ingredient</th>
+                    <th>Price Range</th>
+                </tr>
+                <tr>
+                    <td>Traditional Thekua</td>
+                    <td>Wheat flour + White sugar</td>
+                    <td>₹299-599/pack</td>
+                </tr>
+                <tr>
+                    <td>Jaggery (Gud) Thekua</td>
+                    <td>Wheat flour + Jaggery</td>
+                    <td>₹299-599/pack</td>
+                </tr>
+                <tr>
+                    <td>Suji Thekua</td>
+                    <td>Semolina (Suji)</td>
+                    <td>Premium pricing</td>
+                </tr>
+                <tr>
+                    <td>Coconut Thekua</td>
+                    <td>Desi Coconut</td>
+                    <td>Premium pricing</td>
+                </tr>
+            </table>
+            
+            <hr style="margin: 40px 0;">
+            
+            <div class="product-card" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                <h3 style="color: white;">💪 SATTU (Chana Powder)</h3>
+            </div>
+            
+            <h3>Market Analysis - Sattu</h3>
+            <div class="highlight-box">
+                <h4>⭐ Superfood Status</h4>
+                <p>Sattu is recognized as an indigenous Indian superfood with exceptional nutritional properties and growing global demand.</p>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <span class="stat-number">22</span>
+                    <span class="stat-label">Countries Importing</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">35%</span>
+                    <span class="stat-label">USA Market Share</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">3X</span>
+                    <span class="stat-label">Revenue Growth (Foodrik)</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">98%</span>
+                    <span class="stat-label">Global Supply from India</span>
+                </div>
+            </div>
+            
+            <div class="info-box">
+                <h4>Nutritional Benefits</h4>
+                <ul>
+                    <li>Rich in plant-based protein (20-25g per 100g)</li>
+                    <li>High in dietary fiber for digestion</li>
+                    <li>Contains iron, calcium, manganese, magnesium</li>
+                    <li>Low glycemic index - suitable for diabetics</li>
+                    <li>Natural cooling properties - ideal for summer</li>
+                    <li>Promotes satiety and weight management</li>
+                    <li>Gluten-free (when made from chickpeas only)</li>
+                </ul>
+            </div>
+            
+            <h4>Production Process</h4>
+            <div class="process-step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <strong>Selection:</strong> Choose quality desi chana (Bengal gram) or mixed grains
+                </div>
+            </div>
+            <div class="process-step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <strong>Dry Roasting:</strong> Roast at controlled temperature (160-180°C) for 20-30 minutes
+                </div>
+            </div>
+            <div class="process-step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <strong>Cooling:</strong> Cool roasted grains to room temperature
+                </div>
+            </div>
+            <div class="process-step">
+                <div class="step-number">4</div>
+                <div class="step-content">
+                    <strong>Grinding:</strong> Grind into fine powder using stone mill or modern grinder
+                </div>
+            </div>
+            <div class="process-step">
+                <div class="step-number">5</div>
+                <div class="step-content">
+                    <strong>Sieving:</strong> Filter through mesh for consistency
+                </div>
+            </div>
+            <div class="process-step">
+                <div class="step-number">6</div>
+                <div class="step-content">
+                    <strong>Packaging:</strong> Seal in food-grade packets with nitrogen flushing
+                </div>
+            </div>
+            
+            <h4>Cost Analysis - Sattu Manufacturing (Annual)</h4>
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Amount (₹)</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td>Raw Material</td>
+                    <td>2,00,000</td>
+                    <td>Desi chana, mixed grains</td>
+                </tr>
+                <tr>
+                    <td>Machinery</td>
+                    <td>8,65,000</td>
+                    <td>Roaster, grinder, sieves, scales, sealing machine</td>
+                </tr>
+                <tr>
+                    <td>Labels & Packaging</td>
+                    <td>3,76,000</td>
+                    <td>Pouches, labels, nitrogen system</td>
+                </tr>
+                <tr>
+                    <td>Salaries & Wages</td>
+                    <td>6,10,000</td>
+                    <td>Manager + 6 workers (skilled & unskilled)</td>
+                </tr>
+                <tr>
+                    <td>Working Capital</td>
+                    <td>4,90,000</td>
+                    <td>Utilities, rent, misc</td>
+                </tr>
+                <tr>
+                    <td><strong>Total Project Cost</strong></td>
+                    <td><strong>23,18,600</strong></td>
+                    <td><strong>Complete setup</strong></td>
+                </tr>
+                <tr>
+                    <td>Annual Production Capacity</td>
+                    <td>-</td>
+                    <td>2,318.6 quintals</td>
+                </tr>
+            </table>
+            
+            <hr style="margin: 40px 0;">
+            
+            <div class="product-card" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                <h3 style="color: #333;">🥨 NIMKI/MATHRI (Savory Snacks)</h3>
+            </div>
+            
+            <h3>Market Analysis - Nimki & Mathri</h3>
+            <div class="info-box">
+                <h4>Product Overview</h4>
+                <ul>
+                    <li><strong>Category:</strong> Namkeen/Namak para - savory crispy snacks</li>
+                    <li><strong>Main Ingredients:</strong> Refined flour (maida), semolina, ghee, ajwain, salt</li>
+                    <li><strong>Preparation:</strong> Deep-fried or baked for healthier variant</li>
+                    <li><strong>Shelf Life:</strong> 3-6 months when properly packaged</li>
+                    <li><strong>Popular Variants:</strong> Ajwain mathri, kaju namak para, methi mathri</li>
+                </ul>
+            </div>
+            
+            <h4>Product Specifications</h4>
+            <table>
+                <tr>
+                    <th>Parameter</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td>Packaging Size</td>
+                    <td>100g, 250g, 500g, 900g packs</td>
+                </tr>
+                <tr>
+                    <td>Price Range</td>
+                    <td>₹130-150 per kg</td>
+                </tr>
+                <tr>
+                    <td>Taste Profile</td>
+                    <td>Namkeen (savory), spicy variants available</td>
+                </tr>
+                <tr>
+                    <td>Storage</td>
+                    <td>Store in dry place, airtight container</td>
+                </tr>
+                <tr>
+                    <td>Key Flavors</td>
+                    <td>Ajwain (carom seeds), methi (fenugreek), plain</td>
+                </tr>
+                <tr>
+                    <td>Consumption</td>
+                    <td>Tea-time snack, travel snack, gifting</td>
+                </tr>
+            </table>
+            
+            <h4>Regional Variants</h4>
+            <div class="company-card">
+                <h4>North Indian Style</h4>
+                <ul>
+                    <li>Ajwain mathri - crispy with carom seeds</li>
+                    <li>Khasta mathri - ultra-flaky and layered</li>
+                    <li>Methi mathri - with fenugreek leaves</li>
+                    <li>Moong dal mathri - with yellow lentils</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>Bengali Style (Nimki)</h4>
+                <ul>
+                    <li>Diamond-shaped, crispy texture</li>
+                    <li>Often includes kalonji (nigella seeds)</li>
+                    <li>Less spicy, more subtle flavors</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Competitors Tab -->
+        <div id="competitors" class="tab-content">
+            <h2>🏢 Competitive Analysis - Major Players</h2>
+            
+            <div class="highlight-box">
+                <h3>Market Leaders Overview</h3>
+                <p>Total Indian Snacks Market: ₹59,552 Crore | Traditional/Ethnic Snacks: ₹40,395 Crore (68% share)</p>
+            </div>
+            
+            <h3>🥇 Top Makhana Brands</h3>
+            
+            <div class="company-card">
+                <h4>1. Mr. Makhana (Rishab Global Industries)</h4>
+                <ul>
+                    <li><strong>Position:</strong> Leading flavored makhana brand</li>
+                    <li><strong>Product Range:</strong> Spicy, tangy, cheesy, peri peri flavors</li>
+                    <li><strong>USP:</strong> Bold flavors, portion control packs, movie-time positioning</li>
+                    <li><strong>Price Range:</strong> ₹150-400 per pack</li>
+                    <li><strong>Distribution:</strong> Modern retail, e-commerce, quick commerce</li>
+                    <li><strong>Target Audience:</strong> Urban millennials, Gen Z</li>
+                    <li><strong>Marketing:</strong> Digital-first, influencer collaborations</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>2. Farmley</h4>
+                <ul>
+                    <li><strong>Position:</strong> Farm-to-table premium brand</li>
+                    <li><strong>Product Range:</strong> Mildly flavored, natural variants</li>
+                    <li><strong>USP:</strong> Direct farmer sourcing, freshness guarantee</li>
+                    <li><strong>Price Range:</strong> ₹200-500 per pack</li>
+                    <li><strong>Distribution:</strong> E-commerce focus, Amazon, Flipkart</li>
+                    <li><strong>Target Audience:</strong> Health-conscious families</li>
+                    <li><strong>Packaging:</strong> Value packs, family sizes</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>3. Chappan Bhog</h4>
+                <ul>
+                    <li><strong>Position:</strong> Premium organic makhana</li>
+                    <li><strong>Product Range:</strong> Organic sourced, multiple flavors</li>
+                    <li><strong>USP:</strong> Premium quality, handpicked, no preservatives</li>
+                    <li><strong>Price Range:</strong> ₹250-600 per pack (premium)</li>
+                    <li><strong>Distribution:</strong> Modern retail, specialty stores</li>
+                    <li><strong>Marketing:</strong> Quality and purity messaging</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>4. Sattviko</h4>
+                <ul>
+                    <li><strong>Position:</strong> Health and wellness brand</li>
+                    <li><strong>Product Range:</strong> Roasted, flavored, diet-specific variants</li>
+                    <li><strong>USP:</strong> Low-calorie, diet-friendly positioning</li>
+                    <li><strong>Price Range:</strong> ₹180-450 per pack</li>
+                    <li><strong>Target:</strong> Fitness enthusiasts, weight watchers</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>5. Happilo</h4>
+                <ul>
+                    <li><strong>Position:</strong> Dry fruits and healthy snacks</li>
+                    <li><strong>Product Range:</strong> Makhana alongside nuts</li>
+                    <li><strong>USP:</strong> Wide product portfolio, bundling offers</li>
+                    <li><strong>Distribution:</strong> Strong e-commerce presence</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>6. Other Notable Brands</h4>
+                <ul>
+                    <li><strong>Shakti Sudha Industries</strong> - Traditional processor</li>
+                    <li><strong>Makhanawala Natura Foods</strong> - B2B and retail</li>
+                    <li><strong>Nutrivin Agro (Makhana King)</strong> - Budget segment</li>
+                    <li><strong>Madhubani Makhana</strong> - Regional brand</li>
+                    <li><strong>Divinutty</strong> - Premium positioning</li>
+                    <li><strong>Snackible</strong> - D2C brand with innovation</li>
+                </ul>
+            </div>
+            
+            <h3>🍩 Thekua Brands</h3>
+            
+            <div class="company-card">
+                <h4>1. Desi Tesi (Market Leader)</h4>
+                <ul>
+                    <li><strong>Founded:</strong> 2023 (Assam-based)</li>
+                    <li><strong>Revenue:</strong> ₹1 Crore+</li>
+                    <li><strong>Distribution:</strong> Amazon, direct orders</li>
+                    <li><strong>USP:</strong> Homemade quality, festival demand leverage</li>
+                    <li><strong>Marketing:</strong> Social media (Instagram), word-of-mouth</li>
+                    <li><strong>Success Factor:</strong> First-mover advantage in organized segment</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>2. Hindmaan Foods</h4>
+                <ul>
+                    <li><strong>Product Range:</strong> Suji thekua, Desi gud thekua, Coconut thekua</li>
+                    <li><strong>USP:</strong> Handmade with love, zero preservatives</li>
+                    <li><strong>Ingredients:</strong> Organic, desi-pure ingredients</li>
+                    <li><strong>Price:</strong> Premium positioning</li>
+                    <li><strong>Distribution:</strong> E-commerce, direct sales</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>3. Shuddh Delicacies</h4>
+                <ul>
+                    <li><strong>Product Range:</strong> Traditional thekua, gur para, namakpara</li>
+                    <li><strong>USP:</strong> Authentic homemade goodness, health + flavor balance</li>
+                    <li><strong>Positioning:</strong> Preserving culinary heritage</li>
+                    <li><strong>Distribution:</strong> E-commerce store</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>4. Thekuas.com</h4>
+                <ul>
+                    <li><strong>Positioning:</strong> Online-first brand</li>
+                    <li><strong>Product Range:</strong> Multiple thekua variants</li>
+                    <li><strong>Distribution:</strong> Pan-India delivery</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>5. Shuddh Swad</h4>
+                <ul>
+                    <li><strong>Product Range:</strong> Traditional thekua, jaggery thekua</li>
+                    <li><strong>Price Range:</strong> ₹299-799 per pack</li>
+                    <li><strong>USP:</strong> Sustainability focus, quality ingredients</li>
+                    <li><strong>Marketing:</strong> Core values-driven branding</li>
+                </ul>
+            </div>
+            
+            <h3>💪 Sattu Brands</h3>
+            
+            <div class="company-card">
+                <h4>1. Foodrik</h4>
+                <ul>
+                    <li><strong>Innovation:</strong> Chana sattu nutrition bars and baked bites</li>
+                    <li><strong>Growth:</strong> 3X revenue in 6 months (retail launch)</li>
+                    <li><strong>Founded:</strong> 2021 (initially online-only)</li>
+                    <li><strong>Distribution:</strong> Delhi NCR retail + e-commerce</li>
+                    <li><strong>USP:</strong> Modern format of traditional superfood</li>
+                    <li><strong>Target:</strong> Urban professionals, health-conscious consumers</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>2. Kasturi Food Products</h4>
+                <ul>
+                    <li><strong>Product:</strong> Premium chana sattu powder</li>
+                    <li><strong>Pack Size:</strong> 500g and pocket packs</li>
+                    <li><strong>Ingredients:</strong> 100% roasted plain chana (Bengal gram)</li>
+                    <li><strong>Distribution:</strong> Online platforms</li>
+                    <li><strong>USP:</strong> Best sattu brand positioning</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>3. Sattu.org</h4>
+                <ul>
+                    <li><strong>Model:</strong> Farmer's initiative, direct from Bihar</li>
+                    <li><strong>USP:</strong> 100% pure organic, stone-ground</li>
+                    <li><strong>Process:</strong> Made-to-order for maximum freshness</li>
+                    <li><strong>Price:</strong> ₹199-249 for 500g (20% discount model)</li>
+                    <li><strong>Positioning:</strong> Purest form of Indian superfood</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>4. Two Brothers India Shop</h4>
+                <ul>
+                    <li><strong>Product:</strong> Chana ka sattu powder</li>
+                    <li><strong>Distribution:</strong> E-commerce platform</li>
+                    <li><strong>Positioning:</strong> Traditional food preservation</li>
+                </ul>
+            </div>
+            
+            <h3>🥨 Nimki/Mathri Brands</h3>
+            
+            <div class="company-card">
+                <h4>1. Haldiram (Market Dominator)</h4>
+                <ul>
+                    <li><strong>Market Share:</strong> 38.5% of total snacks market (₹9,215 Crore revenue)</li>
+                    <li><strong>Product Range:</strong> 410+ items including mathri variants</li>
+                    <li><strong>Distribution:</strong> 400+ retail outlets, exports to 80+ countries</li>
+                    <li><strong>USP:</strong> Brand legacy (since 1937), consistent quality</li>
+                    <li><strong>Valuation:</strong> $10 billion (2025)</li>
+                    <li><strong>Regional Focus:</strong> 9 clusters for taste customization</li>
+                    <li><strong>Manufacturing:</strong> 4 major plants across India</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>2. Bikaji Foods</h4>
+                <ul>
+                    <li><strong>Market Position:</strong> #2 in traditional snacks</li>
+                    <li><strong>Product Range:</strong> Extensive namkeen portfolio</li>
+                    <li><strong>Distribution:</strong> Pan-India presence</li>
+                    <li><strong>Status:</strong> Publicly listed company</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>3. Bikano</h4>
+                <ul>
+                    <li><strong>Product Range:</strong> Traditional namkeen, mathri variants</li>
+                    <li><strong>Pack Sizes:</strong> 200g, 400g, 1kg</li>
+                    <li><strong>Distribution:</strong> Retail, modern trade</li>
+                    <li><strong>Price:</strong> Mid-premium segment</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>4. 90's Mill</h4>
+                <ul>
+                    <li><strong>Product:</strong> Marwar healthy wheat mathri, Kaju namak para</li>
+                    <li><strong>USP:</strong> Handmade, healthy positioning</li>
+                    <li><strong>Pack Size:</strong> 900g packs (6-pack combos)</li>
+                    <li><strong>Price:</strong> Premium - ₹300-400 per pack</li>
+                    <li><strong>Distribution:</strong> E-commerce (Flipkart, JioMart)</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>5. FreshoCartz</h4>
+                <ul>
+                    <li><strong>Product:</strong> Homemade ajwain mathri</li>
+                    <li><strong>USP:</strong> Crunchy, crispy tea-time snack</li>
+                    <li><strong>Distribution:</strong> E-commerce platforms</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>6. Regional & Unorganized Players</h4>
+                <ul>
+                    <li><strong>Namaste Handmade Nimki:</strong> ₹130/kg, 500g packs, 120-day shelf life</li>
+                    <li><strong>Annapurna Namkeen:</strong> Regional brand, 500g packs</li>
+                    <li><strong>Pareek Premium:</strong> Rajasthan-based</li>
+                    <li><strong>Local manufacturers:</strong> Pali-Rajasthan, Falna, Kolkata clusters</li>
+                </ul>
+            </div>
+            
+            <h3>📊 Competitive Landscape Summary</h3>
+            
+            <table>
+                <tr>
+                    <th>Brand Category</th>
+                    <th>Market Leader</th>
+                    <th>Market Share</th>
+                    <th>Key Differentiator</th>
+                </tr>
+                <tr>
+                    <td>Overall Snacks</td>
+                    <td>Haldiram</td>
+                    <td>38.5%</td>
+                    <td>Legacy, distribution, variety</td>
+                </tr>
+                <tr>
+                    <td>Makhana</td>
+                    <td>Mr. Makhana</td>
+                    <td>Leading flavored</td>
+                    <td>Bold flavors, modern appeal</td>
+                </tr>
+                <tr>
+                    <td>Thekua</td>
+                    <td>Desi Tesi</td>
+                    <td>Emerging leader</td>
+                    <td>First mover, digital presence</td>
+                </tr>
+                <tr>
+                    <td>Sattu</td>
+                    <td>Foodrik</td>
+                    <td>Innovation leader</td>
+                    <td>Modern format transformation</td>
+                </tr>
+                <tr>
+                    <td>Mathri/Nimki</td>
+                    <td>Haldiram</td>
+                    <td>40%+ namkeen</td>
+                    <td>Brand trust, quality</td>
+                </tr>
+            </table>
+            
+            <div class="success-box">
+                <h3>🎯 Competitive Gaps & Opportunities</h3>
+                <ul>
+                    <li><strong>Thekua Market:</strong> Highly fragmented, no dominant organized player - huge opportunity</li>
+                    <li><strong>Sattu Innovation:</strong> Limited modern formats beyond powder - scope for ready-to-eat products</li>
+                    <li><strong>Makhana:</strong> Growing fast but premium segment underserved in Tier 2/3 cities</li>
+                    <li><strong>Mathri/Nimki:</strong> Dominated by giants but artisanal, premium segment emerging</li>
+                    <li><strong>Multi-product Strategy:</strong> No brand offering all 4 categories cohesively</li>
+                    <li><strong>Regional Focus:</strong> Bihar/Jharkhand origin stories can be leveraged for authenticity</li>
+                    <li><strong>Health Positioning:</strong> Opportunity for preservative-free, organic variants across all products</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Business Roadmap Tab -->
+        <div id="roadmap" class="tab-content">
+            <h2>🗺️ Complete Business Roadmap</h2>
+            
+            <div class="highlight-box">
+                <h3>📌 Strategic Approach</h3>
+                <p>This roadmap outlines a systematic, phase-wise approach to launching and scaling your traditional snacks business from concept to market leader.</p>
+            </div>
+            
+            <div class="roadmap">
+                <div class="roadmap-item">
+                    <h3>Phase 1: Foundation & Planning (Months 1-3)</h3>
+                    <h4>Market Research & Business Setup</h4>
+                    <ul>
+                        <li><strong>Legal Registration:</strong> Register company (Pvt Ltd/LLP), obtain PAN, TAN</li>
+                        <li><strong>FSSAI Registration:</strong> Apply for Basic/State/Central license based on turnover target
+                            <ul>
+                                <li>Turnover < ₹12 lakhs: Basic Registration (₹2,211 for 2 years)</li>
+                                <li>₹12 lakhs - ₹20 crores: State License (₹6,991 annual)</li>
+                                <li>> ₹20 crores or multi-state: Central License (₹18,600 annual)</li>
+                            </ul>
+                        </li>
+                        <li><strong>GST Registration:</strong> Mandatory if turnover exceeds ₹20 lakhs (₹10 lakhs for special states)</li>
+                        <li><strong>Trade License:</strong> From local municipal corporation</li>
+                        <li><strong>Fire Safety NOC:</strong> For manufacturing facility</li>
+                        <li><strong>Pollution Control Certificate:</strong> From state pollution board</li>
+                        <li><strong>Market Analysis:</strong> Finalize target cities, customer segments, pricing strategy</li>
+                        <li><strong>Supplier Identification:</strong> Source raw materials from Bihar (makhana, sattu), local suppliers</li>
+                        <li><strong>Competitor Analysis:</strong> Study pricing, positioning, gaps in market</li>
+                        <li><strong>Product Development:</strong> Recipe standardization, taste testing, shelf-life testing</li>
+                    </ul>
+                </div>
+                
+                <div class="roadmap-item">
+                    <h3>Phase 2: Infrastructure Setup (Months 3-6)</h3>
+                    <h4>Manufacturing & Technology Infrastructure</h4>
+                    <ul>
+                        <li><strong>Facility Selection:</strong>
+                            <ul>
+                                <li>Option A: Own manufacturing unit (₹50 lakhs - ₹2 crores investment)</li>
+                                <li>Option B: Contract manufacturing/Co-packing (₹10-30 lakhs initial)</li>
+                                <li>Recommended: Start with co-packing, scale to own facility</li>
+                            </ul>
+                        </li>
+                        <li><strong>Machinery Procurement:</strong>
+                            <ul>
+                                <li>Makhana: Roasting machine, grading machine, flavoring drum</li>
+                                <li>Thekua: Dough mixer, molding equipment, fryer/oven</li>
+                                <li>Sattu: Roaster (20kg/hour), grinder (25kg/hour), sieving machine</li>
+                                <li>Mathri/Nimki: Dough sheeter, cutter, fryer, cooling conveyor</li>
+                                <li>Packaging: VFFS machine, nitrogen flushing, weighing scales, sealing machine</li>
+                            </ul>
+                        </li>
+                        <li><strong>Technology Implementation:</strong>
+                            <ul>
+                                <li>Batch Tracking System: Unique codes for each production batch</li>
+                                <li>Inventory Management: ERP system for raw materials, finished goods</li>
+                                <li>Quality Control Software: Digital logs, temperature monitoring</li>
+                                <li>E-commerce Platform: Website, Amazon, Flipkart listings</li>
+                                <li>CRM System: Customer data, order management</li>
+                            </ul>
+                        </li>
+                        <li><strong>Quality Systems:</strong>
+                            <ul>
+                                <li>HACCP implementation: Hazard analysis, critical control points</li>
+                                <li>SOP documentation: 20+ SOPs for production, cleaning, safety</li>
+                                <li>Testing lab setup: Basic equipment or tie-up with external lab</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="roadmap-item">
+                    <h3>Phase 3: Product Development & Packaging (Months 5-7)</h3>
+                    <h4>Product Launch Preparation</h4>
+                    <ul>
+                        <li><strong>Recipe Finalization:</strong>
+                            <ul>
+                                <li>Makhana: Plain roasted, Peri peri, Pudina, Salt & pepper (4 SKUs)</li>
+                                <li>Thekua: Traditional, Jaggery, Coconut (3 SKUs)</li>
+                                <li>Sattu: Powder 500g, Sattu bars (2 SKUs)</li>
+                                <li>Mathri/Nimki: Ajwain, Plain, Methi (3 SKUs)</li>
+                            </ul>
+                        </li>
+                        <li><strong>Packaging Design:</strong>
+                            <ul>
+                                <li>Hire packaging design agency (₹40,000 - ₹2 lakhs)</li>
+                                <li>Create brand identity: Logo, colors, typography</li>
+                                <li>Pack sizes: 50g, 100g, 250g, 500g, 900g</li>
+                                <li>Material: Food-grade BOPP, metallized film with nitrogen flushing</li>
+                                <li>Labeling: Comply with Legal Metrology, FSSAI, nutritional information</li>
+                            </ul>
+                        </li>
+                        <li><strong>Nutritional Testing:</strong> Get lab analysis for nutrition facts panel</li>
+                        <li><strong>Shelf-Life Testing:</strong> Conduct accelerated and real-time studies</li>
+                        <li><strong>Prototype Production:</strong> Small batch production (100-500 units) for testing</li>
+                        <li><strong>Focus Group Testing:</strong> Gather feedback from 50-100 potential customers</li>
+                    </ul>
+                </div>
+                
+                <div class="roadmap-item">
+                    <h3>Phase 4: Pre-Launch & Pilot (Months 7-9)</h3>
+                    <h4>Market Testing & Refinement</h4>
+                    <ul>
+                        <li><strong>Pilot Production:</strong> 10,000 units per product (40,000 total)</li>
+                        <li><strong>Distribution Pilot:</strong>
+                            <ul>
+                                <li>Launch in 1-2 cities (e.g., Delhi-NCR, Mumbai)</li>
+                                <li>Secure 20-30 retail stores (kirana, modern trade)</li>
+                                <li>Launch on 2-3 e-commerce platforms</li>
+                            </ul>
+                        </li>
+                        <li><strong>Marketing Campaigns:</strong>
+                            <ul>
+                                <li>Social media setup: Instagram, Facebook, YouTube</li>
+                                <li>Influencer collaborations: 10-15 micro-influencers</li>
+                                <li>Content creation: Product videos, recipes, health benefits</li>
+                                <li>Google Ads & Facebook Ads: ₹50,000-1 lakh budget</li>
+                            </ul>
+                        </li>
+                        <li><strong>Feedback Collection:</strong> Surveys, reviews, direct customer interactions</li>
+                        <li><strong>Iteration:</strong> Refine taste, packaging, pricing based on feedback</li>
+                        <li><strong>Operations Testing:</strong> Validate supply chain, inventory, delivery timelines</li>
+                    </ul>
+                </div>
+                
+                <div class="roadmap-item">
+                    <h3>Phase 5: Official Launch (Months 9-12)</h3>
+                    <h4>Go-to-Market Execution</h4>
+                    <ul>
+                        <li><strong>Production Scale-Up:</strong> 50,000-1,00,000 units per product</li>
+                        <li><strong>Distribution Expansion:</strong>
+                            <ul>
+                                <li>Modern Trade: Big Bazaar, DMart, Reliance Fresh (100+ stores)</li>
+                                <li>E-commerce: Amazon, Flipkart, BigBasket, JioMart, Blinkit, Zepto</li>
+                                <li>Traditional Retail: 200-500 kirana stores</li>
+                                <li>Direct-to-Consumer: Own website with payment gateway</li>
+                            </ul>
+                        </li>
+                        <li><strong>Marketing Blitz:</strong>
+                            <ul>
+                                <li>Launch event/campaign</li>
+                                <li>PR coverage: Food bloggers, magazines, newspapers</li>
+                                <li>Sampling campaigns: Malls, events, corporate offices</li>
+                                <li>Social media advertising: ₹2-5 lakhs per month</li>
+                            </ul>
+                        </li>
+                        <li><strong>Team Expansion:</strong> Hire sales team (5-10 people), customer support</li>
+                    </ul>
+                </div>
+                
+                <div class="roadmap-item">
+                    <h3>Phase 6: Growth & Scaling (Year 2)</h3>
+                    <h4>National Expansion</h4>
+                    <ul>
+                        <li><strong>Geographic Expansion:</strong> Launch in 10+ cities across India</li>
+                        <li><strong>Product Line Extension:</strong> Add 2-3 new products per quarter</li>
+                        <li><strong>Manufacturing Scale:</strong>
+                            <ul>
+                                <li>Own facility if monthly production > 10 tons</li>
+                                <li>Automated packaging line for efficiency</li>
+                                <li>Multiple co-packers for capacity</li>
+                            </ul>
+                        </li>
+                        <li><strong>Distribution Channels:</strong>
+                            <ul>
+                                <li>Wholesaler network: Appoint 20-30 distributors</li>
+                                <li>Modern trade expansion: 500+ stores</li>
+                                <li>Export exploration: NRI markets (USA, UK, Middle East)</li>
+                            </ul>
+                        </li>
+                        <li><strong>Brand Building:</strong>
+                            <ul>
+                                <li>Celebrity endorsements/brand ambassadors</li>
+                                <li>TV commercials (regional channels)</li>
+                                <li>Festival-specific campaigns</li>
+                            </ul>
+                        </li>
+                        <li><strong>Technology Upgrades:</strong>
+                            <ul>
+                                <li>Advanced ERP with AI-powered demand forecasting</li>
+                                <li>Mobile app for customers</li>
+                                <li>Blockchain for supply chain transparency</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="roadmap-item">
+                    <h3>Phase 7: Maturity & Diversification (Year 3+)</h3>
+                    <h4>Market Leadership</h4>
+                    <ul>
+                        <li><strong>Market Position:</strong> Achieve top 5 position in 1-2 categories</li>
+                        <li><strong>Revenue Target:</strong> ₹50-100 crores annual turnover</li>
+                        <li><strong>Diversification:</strong>
+                            <ul>
+                                <li>Ready-to-eat meals segment</li>
+                                <li>Beverages (sattu-based drinks)</li>
+                                <li>Health bars and nutrition products</li>
+                            </ul>
+                        </li>
+                        <li><strong>International Expansion:</strong> Direct exports, international partnerships</li>
+                        <li><strong>Funding Options:</strong>
+                            <ul>
+                                <li>Series A/B funding from VCs</li>
+                                <li>Strategic partnerships with larger FMCG companies</li>
+                                <li>IPO consideration</li>
+                            </ul>
+                        </li>
+                        <li><strong>Sustainability Initiatives:</strong>
+                            <ul>
+                                <li>Eco-friendly packaging</li>
+                                <li>Farmer partnerships (direct procurement)</li>
+                                <li>Carbon-neutral operations</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Team Roles Tab -->
+        <div id="roles" class="tab-content">
+            <h2>👥 Team Roles & Responsibilities</h2>
+            
+            <div class="info-box">
+                <h3>Organizational Structure</h3>
+                <p>Building a successful traditional snacks company requires a well-defined team with clear roles. Here's a comprehensive breakdown of key positions and their responsibilities.</p>
+            </div>
+            
+            <div class="role-card">
+                <h4>👔 CEO (Chief Executive Officer)</h4>
+                <p><strong>Reports To:</strong> Board of Directors | <strong>Team Size:</strong> All departments</p>
+                <h5>Core Responsibilities:</h5>
+                <ul>
+                    <li>Define company vision, mission, and strategic direction</li>
+                    <li>Make final decisions on major business matters (fundraising, acquisitions, partnerships)</li>
+                    <li>Build and lead the executive team (CTO, CFO, COO, CMO)</li>
+                    <li>Represent company to investors, media, and stakeholders</li>
+                    <li>Set company culture, values, and operational principles</li>
+                    <li>Monitor overall company performance against goals</li>
+                    <li>Fundraising: Pitch to VCs, angels, secure capital for growth</li>
+                    <li>Strategic partnerships: Tie-ups with retailers, distributors, suppliers</li>
+                </ul>
+                <h5>Key Metrics:</h5>
+                <ul>
+                    <li>Revenue growth (target: 25-30% YoY)</li>
+                    <li>Market share in target segments</li>
+                    <li>Customer acquisition and retention rates</li>
+                    <li>Brand awareness and recall</li>
+                </ul>
+                <h5>Skills Required:</h5>
+                <ul>
+                    <li>Leadership and team management</li>
+                    <li>Strategic thinking and long-term planning</li>
+                    <li>Communication and public speaking</li>
+                    <li>Financial acumen and business modeling</li>
+                    <li>Industry knowledge (FMCG/food sector)</li>
+                </ul>
+            </div>
+            
+            <div class="role-card">
+                <h4>💻 CTO (Chief Technology Officer)</h4>
+                <p><strong>Reports To:</strong> CEO | <strong>Team Size:</strong> 3-10 (IT, systems, automation)</p>
+                <h5>Core Responsibilities:</h5>
+                <ul>
+                    <li><strong>Batch Code System:</strong> Implement unique tracking codes for every production batch
+                        <ul>
+                            <li>Format: YYYYMMDD-ProductCode-BatchNo (e.g., 20251102-MKH-001)</li>
+                            <li>QR codes on packaging for consumer transparency</li>
+                            <li>Integration with ERP for full traceability</li>
+                        </ul>
+                    </li>
+                    <li><strong>Technology Stack Selection:</strong>
+                        <ul>
+                            <li>ERP System: Choose between SAP, Oracle, Tally, or custom solution</li>
+                            <li>E-commerce Platform: Shopify, WooCommerce, or custom development</li>
+                            <li>Inventory Management: Real-time stock tracking, reorder alerts</li>
+                            <li>Quality Management: Digital checklists, IoT sensors for monitoring</li>
+                        </ul>
+                    </li>
+                    <li><strong>Production Automation:</strong>
+                        <ul>
+                            <li>Evaluate and implement automated packaging lines</li>
+                            <li>IoT sensors for temperature, humidity monitoring</li>
+                            <li>Automated quality control (vision systems for defect detection)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Data Analytics:</strong>
+                        <ul>
+                            <li>Sales forecasting using AI/ML algorithms</li>
+                            <li>Customer behavior analysis</li>
+                            <li>Supply chain optimization</li>
+                        </ul>
+                    </li>
+                    <li><strong>Cybersecurity:</strong> Protect customer data, payment information, business data</li>
+                    <li><strong>Tech Budget Management:</strong> Software licenses, cloud costs, hardware procurement</li>
+                    <li><strong>Vendor Management:</strong> IT service providers, cloud platforms, software vendors</li>
+                </ul>
+                <h5>Key Deliverables:</h5>
+                <ul>
+                    <li>Fully functional batch tracking system (Month 4)</li>
+                    <li>E-commerce website with payment gateway (Month 6)</li>
+                    <li>ERP implementation (Month 6-9)</li>
+                    <li>Mobile app for B2B ordering (Year 2)</li>
+                </ul>
+                <h5>Skills Required:</h5>
+                <ul>
+                    <li>Software development or strong technical background</li>
+                    <li>System architecture and integration</li>
+                    <li>Project management</li>
+                    <li>Understanding of food manufacturing processes</li>
+                    <li>Emerging tech awareness (AI, IoT, blockchain)</li>
+                </ul>
+            </div>
+            
+            <div class="role-card">
+                <h4>💰 CFO (Chief Financial Officer)</h4>
+                <p><strong>Reports To:</strong> CEO | <strong>Team Size:</strong> 2-8 (finance, accounting)</p>
+                <h5>Core Responsibilities:</h5>
+                <ul>
+                    <li><strong>Financial Planning & Analysis:</strong>
+                        <ul>
+                            <li>Create detailed business financial models</li>
+                            <li>Monthly, quarterly, annual budgets</li>
+                            <li>Cash flow forecasting and management</li>
+                            <li>Scenario analysis for different growth paths</li>
+                        </ul>
+                    </li>
+                    <li><strong>Pricing Strategy:</strong>
+                        <ul>
+                            <li>Cost-plus analysis: Calculate full cost per unit (raw material + labor + overhead + packaging)</li>
+                            <li>Competitive benchmarking: Analyze competitor pricing</li>
+                            <li>Value-based pricing: What customers willing to pay for quality/convenience</li>
+                            <li>Margin targets: Wholesale (25-35%), Retail (40-50%), E-commerce (30-45%)</li>
+                            <li>Dynamic pricing: Festival discounts, bulk offers, subscription models</li>
+                        </ul>
+                    </li>
+                    <li><strong>Cost Management:</strong>
+                        <ul>
+                            <li>Negotiate with suppliers for best rates</li>
+                            <li>Identify cost-saving opportunities without compromising quality</li>
+                            <li>Monitor COGS (Cost of Goods Sold) - target < 40-45% of revenue</li>
+                        </ul>
+                    </li>
+                    <li><strong>Fundraising:</strong>
+                        <ul>
+                            <li>Prepare pitch decks with financial projections</li>
+                            <li>Coordinate with angels, VCs for funding rounds</li>
+                            <li>Manage cap table, equity dilution</li>
+                        </ul>
+                    </li>
+                    <li><strong>Compliance:</strong>
+                        <ul>
+                            <li>GST filing (monthly/quarterly)</li>
+                            <li>Income tax, TDS compliance</li>
+                            <li>Audit preparation and coordination</li>
+                            <li>Statutory filings (MCA, ROC)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Financial Reporting:</strong>
+                        <ul>
+                            <li>P&L statements, balance sheets, cash flow statements</li>
+                            <li>KPI dashboards for management</li>
+                            <li>Investor reporting</li>
+                        </ul>
+                    </li>
+                </ul>
+                <h5>Key Metrics:</h5>
+                <ul>
+                    <li>Gross margin: 50-60% target</li>
+                    <li>EBITDA margin: 15-25% target (Year 2+)</li>
+                    <li>Burn rate: Monthly cash consumption</li>
+                    <li>Runway: Months of operation with current cash</li>
+                    <li>Working capital ratio: Current assets/Current liabilities > 1.5</li>
+                </ul>
+                <h5>Skills Required:</h5>
+                <ul>
+                    <li>CA/MBA Finance or equivalent</li>
+                    <li>Financial modeling and Excel expertise</li>
+                    <li>Understanding of FMCG economics</li>
+                    <li>Tax and regulatory knowledge</li>
+                    <li>Communication skills for investor relations</li>
+                </ul>
+            </div>
+            
+            <div class="role-card">
+                <h4>⚙️ COO (Chief Operating Officer)</h4>
+                <p><strong>Reports To:</strong> CEO | <strong>Team Size:</strong> 10-50 (production, supply chain, quality)</p>
+                <h5>Core Responsibilities:</h5>
+                <ul>
+                    <li><strong>Production Management:</strong>
+                        <ul>
+                            <li>Daily production planning based on demand forecasts</li>
+                            <li>Ensure production targets are met (volume, quality, timeline)</li>
+                            <li>Manage manufacturing team or coordinate with co-packers</li>
+                            <li>Implement lean manufacturing principles</li>
+                        </ul>
+                    </li>
+                    <li><strong>Supply Chain:</strong>
+                        <ul>
+                            <li>Raw material procurement: Makhana from Bihar, spices, packaging materials</li>
+                            <li>Vendor relationships: Negotiate contracts, ensure quality and timely delivery</li>
+                            <li>Inventory management: Maintain optimal stock levels (raw + finished goods)</li>
+                            <li>Logistics coordination: Warehousing, transportation to distributors/retailers</li>
+                        </ul>
+                    </li>
+                    <li><strong>Quality Assurance:</strong>
+                        <ul>
+                            <li>Implement HACCP, ISO 22000 standards</li>
+                            <li>Regular quality checks at every production stage</li>
+                            <li>Coordinate third-party lab testing</li>
+                            <li>Handle customer complaints, product recalls if needed</li>
+                        </ul>
+                    </li>
+                    <li><strong>Operations Efficiency:</strong>
+                        <ul>
+                            <li>Reduce waste and improve yield</li>
+                            <li>Optimize production schedules</li>
+                            <li>Equipment maintenance and uptime management</li>
+                        </ul>
+                    </li>
+                </ul>
+                <h5>Key Metrics:</h5>
+                <ul>
+                    <li>Production efficiency: Target 85-95%</li>
+                    <li>Waste percentage: Keep < 5-8%</li>
+                    <li>On-time delivery: 95%+</li>
+                    <li>Inventory turnover: 8-12 times per year</li>
+                </ul>
+            </div>
+            
+            <div class="role-card">
+                <h4>📢 CMO (Chief Marketing Officer)</h4>
+                <p><strong>Reports To:</strong> CEO | <strong>Team Size:</strong> 5-15 (marketing, branding, content)</p>
+                <h5>Core Responsibilities:</h5>
+                <ul>
+                    <li><strong>Brand Strategy:</strong> Define brand positioning, messaging, visual identity</li>
+                    <li><strong>Digital Marketing:</strong>
+                        <ul>
+                            <li>Social media management (Instagram, Facebook, YouTube)</li>
+                            <li>Content creation: Videos, recipes, health tips</li>
+                            <li>Influencer collaborations and PR</li>
+                            <li>Paid advertising: Google Ads, Facebook/Instagram Ads</li>
+                            <li>SEO and SEM for website traffic</li>
+                        </ul>
+                    </li>
+                    <li><strong>Offline Marketing:</strong>
+                        <ul>
+                            <li>In-store promotions and sampling</li>
+                            <li>Print ads, TV commercials (as budget permits)</li>
+                            <li>Event sponsorships, trade shows</li>
+                        </ul>
+                    </li>
+                    <li><strong>Customer Insights:</strong> Market research, feedback analysis, trend identification</li>
+                    <li><strong>Product Launch:</strong> Plan and execute GTM strategies for new products</li>
+                </ul>
+            </div>
+            
+            <div class="role-card">
+                <h4>📊 Head of Sales</h4>
+                <p><strong>Reports To:</strong> CEO/COO | <strong>Team Size:</strong> 5-20 (sales team)</p>
+                <h5>Core Responsibilities:</h5>
+                <ul>
+                    <li><strong>Distribution Network:</strong>
+                        <ul>
+                            <li>Recruit and manage distributors across cities</li>
+                            <li>Negotiate terms with modern trade (Big Bazaar, DMart, etc.)</li>
+                            <li>Build relationships with kirana stores</li>
+                        </ul>
+                    </li>
+                    <li><strong>Sales Targets:</strong> Set and achieve monthly/quarterly targets by channel</li>
+                    <li><strong>E-commerce Management:</strong> Coordinate with Amazon, Flipkart, BigBasket for listing, promotions</li>
+                    <li><strong>Key Account Management:</strong> Handle large customers, negotiate contracts</li>
+                    <li><strong>Sales Analytics:</strong> Track performance by product, region, channel</li>
+                </ul>
+            </div>
+            
+            <div class="role-card">
+                <h4>🔬 Head of Quality & R&D</h4>
+                <p><strong>Reports To:</strong> COO | <strong>Team Size:</strong> 2-5</p>
+                <h5>Core Responsibilities:</h5>
+                <ul>
+                    <li>New product development and recipe innovation</li>
+                    <li>Quality control protocols and testing</li>
+                    <li>Shelf-life studies and nutritional analysis</li>
+                    <li>FSSAI compliance and audits</li>
+                    <li>Continuous improvement of existing products</li>
+                </ul>
+            </div>
+            
+            <div class="role-card">
+                <h4>👨‍💼 HR Manager</h4>
+                <p><strong>Reports To:</strong> CEO | <strong>Team Size:</strong> 1-3</p>
+                <h5>Core Responsibilities:</h5>
+                <ul>
+                    <li>Recruitment: Hire for all roles as company scales</li>
+                    <li>Training: Onboarding, food safety training, skills development</li>
+                    <li>Payroll and benefits administration</li>
+                    <li>Employee engagement and culture building</li>
+                    <li>Compliance: Labor laws, factory regulations</li>
+                </ul>
+            </div>
+            
+            <h3>Team Size by Phase</h3>
+            <table>
+                <tr>
+                    <th>Phase</th>
+                    <th>Team Size</th>
+                    <th>Key Hires</th>
+                </tr>
+                <tr>
+                    <td>Foundation (0-6 months)</td>
+                    <td>3-5 people</td>
+                    <td>Founders, 1-2 production staff, 1 admin</td>
+                </tr>
+                <tr>
+                    <td>Launch (6-12 months)</td>
+                    <td>10-15 people</td>
+                    <td>+ Sales head, Marketing head, QC manager, 5 production staff</td>
+                </tr>
+                <tr>
+                    <td>Growth (Year 2)</td>
+                    <td>25-40 people</td>
+                    <td>+ CTO, CFO, HR manager, sales team (10), production (15)</td>
+                </tr>
+                <tr>
+                    <td>Scale (Year 3+)</td>
+                    <td>50-100+ people</td>
+                    <td>+ Regional managers, specialized roles, support staff</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Requirements Tab -->
+        <div id="requirements" class="tab-content">
+            <h2>📋 Complete Requirements Checklist</h2>
+            
+            <h3>1️⃣ Legal & Regulatory Requirements</h3>
+            
+            <div class="company-card">
+                <h4>Company Registration</h4>
+                <table>
+                    <tr>
+                        <th>Document/License</th>
+                        <th>Cost</th>
+                        <th>Timeline</th>
+                        <th>Renewal</th>
+                    </tr>
+                    <tr>
+                        <td>Private Limited Company Registration</td>
+                        <td>₹10,000-20,000</td>
+                        <td>7-15 days</td>
+                        <td>Annual filings</td>
+                    </tr>
+                    <tr>
+                        <td>LLP Registration</td>
+                        <td>₹8,000-15,000</td>
+                        <td>7-15 days</td>
+                        <td>Annual filings</td>
+                    </tr>
+                    <tr>
+                        <td>PAN & TAN</td>
+                        <td>Included in registration</td>
+                        <td>Same time</td>
+                        <td>Permanent</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="company-card">
+                <h4>FSSAI Registration (Food License)</h4>
+                <table>
+                    <tr>
+                        <th>License Type</th>
+                        <th>Eligibility</th>
+                        <th>Cost</th>
+                        <th>Validity</th>
+                    </tr>
+                    <tr>
+                        <td>Basic Registration</td>
+                        <td>Turnover < ₹12 lakhs</td>
+                        <td>₹2,211</td>
+                        <td>2 years</td>
+                    </tr>
+                    <tr>
+                        <td>State License</td>
+                        <td>₹12L - ₹20 Cr turnover OR single state operation</td>
+                        <td>₹6,991</td>
+                        <td>1 year</td>
+                    </tr>
+                    <tr>
+                        <td>Central License</td>
+                        <td>> ₹20 Cr OR multi-state OR import/export</td>
+                        <td>₹18,600</td>
+                        <td>1 year</td>
+                    </tr>
+                </table>
+                <p><strong>Documents Required:</strong></p>
+                <ul>
+                    <li>Company registration certificate</li>
+                    <li>ID & address proof of owner/directors</li>
+                    <li>Premises documents (rent agreement/ownership)</li>
+                    <li>Layout plan of manufacturing unit</li>
+                    <li>List of food products to be manufactured</li>
+                    <li>Food safety management plan</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>GST Registration</h4>
+                <table>
+                    <tr>
+                        <th>Parameter</th>
+                        <th>Details</th>
+                    </tr>
+                    <tr>
+                        <td>Mandatory if</td>
+                        <td>Turnover > ₹20 lakhs (₹10 lakhs for special category states)</td>
+                    </tr>
+                    <tr>
+                        <td>Cost</td>
+                        <td>Free (DIY) or ₹2,000-5,000 (via CA)</td>
+                    </tr>
+                    <tr>
+                        <td>Timeline</td>
+                        <td>7-10 days</td>
+                    </tr>
+                    <tr>
+                        <td>GST Rates (Food)</td>
+                        <td>5% (most packaged snacks), 12% (some categories), 18% (packaged ready-to-eat)</td>
+                    </tr>
+                    <tr>
+                        <td>Filing</td>
+                        <td>Monthly GSTR-1, GSTR-3B; Annual GSTR-9</td>
+                    </tr>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>Other Licenses & Clearances</h4>
+                <ul>
+                    <li><strong>Trade License:</strong> From municipal corporation (₹2,000-10,000)</li>
+                    <li><strong>Fire Safety NOC:</strong> From fire department (₹5,000-15,000)</li>
+                    <li><strong>Pollution Control NOC:</strong> State Pollution Control Board (₹10,000-25,000)</li>
+                    <li><strong>Factory License:</strong> If employing 10+ workers (₹5,000-20,000)</li>
+                    <li><strong>Shops & Establishment License:</strong> For retail stores (₹1,000-5,000)</li>
+                    <li><strong>Import Export Code (IEC):</strong> For exports (₹5,000-10,000)</li>
+                    <li><strong>Trademark Registration:</strong> Brand protection (₹5,000-15,000 per class)</li>
+                </ul>
+            </div>
+            
+            <h3>2️⃣ Manufacturing Infrastructure</h3>
+            
+            <div class="company-card">
+                <h4>Facility Requirements</h4>
+                <table>
+                    <tr>
+                        <th>Area</th>
+                        <th>Specification</th>
+                    </tr>
+                    <tr>
+                        <td>Total Space</td>
+                        <td>2,000-5,000 sq ft (for small scale)</td>
+                    </tr>
+                    <tr>
+                        <td>Production Area</td>
+                        <td>60-70% of total (1,200-3,500 sq ft)</td>
+                    </tr>
+                    <tr>
+                        <td>Raw Material Storage</td>
+                        <td>15-20% (temperature & humidity controlled)</td>
+                    </tr>
+                    <tr>
+                        <td>Finished Goods Storage</td>
+                        <td>10-15%</td>
+                    </tr>
+                    <tr>
+                        <td>Office/Admin</td>
+                        <td>5-10%</td>
+                    </tr>
+                    <tr>
+                        <td>Flooring</td>
+                        <td>Epoxy or non-slip tiles, easy to clean</td>
+                    </tr>
+                    <tr>
+                        <td>Walls</td>
+                        <td>Washable paint or tiles up to 6 feet</td>
+                    </tr>
+                    <tr>
+                        <td>Ventilation</td>
+                        <td>Adequate exhaust systems, air circulation</td>
+                    </tr>
+                    <tr>
+                        <td>Lighting</td>
+                        <td>LED lights, 300-500 lux in production area</td>
+                    </tr>
+                    <tr>
+                        <td>Water Supply</td>
+                        <td>Potable water with filtration, 5000-10000 L/day</td>
+                    </tr>
+                    <tr>
+                        <td>Electricity</td>
+                        <td>3-phase connection, 50-100 KW load</td>
+                    </tr>
+                </ul>
+            </div>
+            
+            <h3>3️⃣ Machinery & Equipment</h3>
+            
+            <div class="company-card">
+                <h4>Makhana Processing Equipment</h4>
+                <table>
+                    <tr>
+                        <th>Equipment</th>
+                        <th>Specification</th>
+                        <th>Cost (₹)</th>
+                    </tr>
+                    <tr>
+                        <td>Continuous Roasting Machine</td>
+                        <td>50-100 kg/hour capacity</td>
+                        <td>3,00,000 - 5,00,000</td>
+                    </tr>
+                    <tr>
+                        <td>Flavoring Drum/Tumbler</td>
+                        <td>25-50 kg batch</td>
+                        <td>1,50,000 - 2,50,000</td>
+                    </tr>
+                    <tr>
+                        <td>Grading Machine</td>
+                        <td>Size sorting 3-6 grades</td>
+                        <td>1,00,000 - 2,00,000</td>
+                    </tr>
+                    <tr>
+                        <td>Cooling Conveyor</td>
+                        <td>5-10 meter length</td>
+                        <td>75,000 - 1,50,000</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="company-card">
+                <h4>Thekua Production Equipment</h4>
+                <table>
+                    <tr>
+                        <th>Equipment</th>
+                        <th>Specification</th>
+                        <th>Cost (₹)</th>
+                    </tr>
+                    <tr>
+                        <td>Dough Mixer</td>
+                        <td>25-50 kg capacity</td>
+                        <td>50,000 - 1,50,000</td>
+                    </tr>
+                    <tr>
+                        <td>Molding Machine/Hand Tools</td>
+                        <td>Semi-auto or manual</td>
+                        <td>25,000 - 1,00,000</td>
+                    </tr>
+                    <tr>
+                        <td>Continuous Fryer</td>
+                        <td>50-100 kg/hour</td>
+                        <td>3,00,000 - 6,00,000</td>
+                    </tr>
+                    <tr>
+                        <td>Oil Filtration System</td>
+                        <td>For reuse & quality</td>
+                        <td>50,000 - 1,00,000</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="company-card">
+                <h4>Sattu Manufacturing Equipment</h4>
+                <table>
+                    <tr>
+                        <th>Equipment</th>
+                        <th>Specification</th>
+                        <th>Cost (₹)</th>
+                    </tr>
+                    <tr>
+                        <td>Dal Cleaning Machine</td>
+                        <td>50-100 kg/hour</td>
+                        <td>75,000 - 1,50,000</td>
+                    </tr>
+                    <tr>
+                        <td>Electric Roaster</td>
+                        <td>20-25 kg/hour roasting</td>
+                        <td>2,00,000 - 3,50,000</td>
+                    </tr>
+                    <tr>
+                        <td>Pulverizer/Grinder</td>
+                        <td>25 kg/hour capacity</td>
+                        <td>1,50,000 - 2,50,000</td>
+                    </tr>
+                    <tr>
+                        <td>Sieving Machine</td>
+                        <td>3-4 mesh screens</td>
+                        <td>50,000 - 1,00,000</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="company-card">
+                <h4>Mathri/Nimki Equipment</h4>
+                <table>
+                    <tr>
+                        <th>Equipment</th>
+                        <th>Specification</th>
+                        <th>Cost (₹)</th>
+                    </tr>
+                    <tr>
+                        <td>Dough Mixer</td>
+                        <td>50 kg capacity</td>
+                        <td>75,000 - 1,50,000</td>
+                    </tr>
+                    <tr>
+                        <td>Dough Sheeter</td>
+                        <td>Semi-automatic</td>
+                        <td>1,50,000 - 2,50,000</td>
+                    </tr>
+                    <tr>
+                        <td>Cutting Machine</td>
+                        <td>Various shapes</td>
+                        <td>50,000 - 1,00,000</td>
+                    </tr>
+                    <tr>
+                        <td>Continuous Fryer</td>
+                        <td>100-150 kg/hour</td>
+                        <td>3,50,000 - 6,00,000</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="company-card">
+                <h4>Common Equipment (All Products)</h4>
+                <table>
+                    <tr>
+                        <th>Equipment</th>
+                        <th>Specification</th>
+                        <th>Cost (₹)</th>
+                    </tr>
+                    <tr>
+                        <td>VFFS Packaging Machine</td>
+                        <td>50-100 pouches/min, nitrogen flush</td>
+                        <td>5,00,000 - 12,00,000</td>
+                    </tr>
+                    <tr>
+                        <td>Weighing Scales (Multiple)</td>
+                        <td>Digital, 5kg, 50kg, 200kg</td>
+                        <td>50,000 - 1,00,000</td>
+                    </tr>
+                    <tr>
+                        <td>Metal Detector</td>
+                        <td>Inline, conveyor type</td>
+                        <td>2,00,000 - 4,00,000</td>
+                    </tr>
+                    <tr>
+                        <td>Batch Coding Machine</td>
+                        <td>Inkjet printer on pouches</td>
+                        <td>75,000 - 2,00,000</td>
+                    </tr>
+                    <tr>
+                        <td>Sealing Machine</td>
+                        <td>Manual/semi-auto for small batches</td>
+                        <td>25,000 - 75,000</td>
+                    </tr>
+                    <tr>
+                        <td>Storage Bins/Containers</td>
+                        <td>Food-grade plastic, stainless steel</td>
+                        <td>50,000 - 1,50,000</td>
+                    </tr>
+                    <tr>
+                        <td>Trolleys & Racks</td>
+                        <td>Stainless steel</td>
+                        <td>50,000 - 1,00,000</td>
+                    </tr>
+                    <tr>
+                        <td>Personal Protective Equipment</td>
+                        <td>Gloves, hairnets, aprons, masks</td>
+                        <td>25,000 - 50,000</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <h3>4️⃣ Raw Material Requirements</h3>
+            
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Key Raw Materials</th>
+                    <th>Source Regions</th>
+                    <th>Monthly Requirement (Small Scale)</th>
+                </tr>
+                <tr>
+                    <td>Makhana</td>
+                    <td>Raw makhana seeds, salt, spices, oil</td>
+                    <td>Bihar (Darbhanga, Madhubani, Purnia)</td>
+                    <td>500-1000 kg raw seeds</td>
+                </tr>
+                <tr>
+                    <td>Thekua</td>
+                    <td>Wheat flour, jaggery/sugar, ghee, cardamom</td>
+                    <td>Local markets, jaggery from Maharashtra/UP</td>
+                    <td>1000-2000 kg flour</td>
+                </tr>
+                <tr>
+                    <td>Sattu</td>
+                    <td>Chana dal (roasted gram), packaging</td>
+                    <td>Bihar, MP, Rajasthan</td>
+                    <td>2000-3000 kg chana</td>
+                </tr>
+                <tr>
+                    <td>Mathri/Nimki</td>
+                    <td>Maida/atta, ghee, ajwain, salt, oil</td>
+                    <td>Local flour mills, spice markets</td>
+                    <td>1500-2500 kg flour</td>
+                </tr>
+                <tr>
+                    <td>Packaging</td>
+                    <td>BOPP pouches, labels, cartons</td>
+                    <td>Packaging suppliers (Delhi, Mumbai, Ahmedabad)</td>
+                    <td>10,000-20,000 pouches</td>
+                </tr>
+            </table>
+            
+            <h3>5️⃣ Technology & Software Requirements</h3>
+            
+            <table>
+                <tr>
+                    <th>System</th>
+                    <th>Purpose</th>
+                    <th>Options</th>
+                    <th>Cost (Annual)</th>
+                </tr>
+                <tr>
+                    <td>ERP System</td>
+                    <td>Inventory, production, finance, sales</td>
+                    <td>Tally, Zoho, Odoo, SAP B1, custom</td>
+                    <td>₹50,000 - 5,00,000</td>
+                </tr>
+                <tr>
+                    <td>Batch Tracking</td>
+                    <td>Unique codes, traceability</td>
+                    <td>Custom module or ERP integrated</td>
+                    <td>₹1,00,000 - 3,00,000 (setup)</td>
+                </tr>
+                <tr>
+                    <td>E-commerce Website</td>
+                    <td>D2C sales, brand presence</td>
+                    <td>Shopify, WooCommerce, custom</td>
+                    <td>₹30,000 - 2,00,000</td>
+                </tr>
+                <tr>
+                    <td>Marketplace Integration</td>
+                    <td>Amazon, Flipkart listing & inventory sync</td>
+                    <td>Manual or integration tools</td>
+                    <td>₹20,000 - 1,00,000</td>
+                </tr>
+                <tr>
+                    <td>CRM</td>
+                    <td>Customer database, loyalty programs</td>
+                    <td>Zoho CRM, HubSpot, custom</td>
+                    <td>₹25,000 - 1,50,000</td>
+                </tr>
+                <tr>
+                    <td>Accounting Software</td>
+                    <td>GST filing, invoicing, expenses</td>
+                    <td>Tally, QuickBooks, Zoho Books</td>
+                    <td>₹15,000 - 50,000</td>
+                </tr>
+                <tr>
+                    <td>Quality Management</td>
+                    <td>Digital checklists, audits, HACCP</td>
+                    <td>SafetyChain, custom forms</td>
+                    <td>₹50,000 - 2,00,000</td>
+                </tr>
+                <tr>
+                    <td>IoT Sensors (Optional)</td>
+                    <td>Temperature, humidity monitoring</td>
+                    <td>Custom setup with cloud platform</td>
+                    <td>₹1,00,000 - 5,00,000</td>
+                </tr>
+            </table>
+            
+            <h3>6️⃣ Human Resources</h3>
+            
+            <table>
+                <tr>
+                    <th>Role</th>
+                    <th>Number</th>
+                    <th>Monthly Salary Range (₹)</th>
+                    <th>Phase to Hire</th>
+                </tr>
+                <tr>
+                    <td>Founder/CEO</td>
+                    <td>1</td>
+                    <td>As per equity structure</td>
+                    <td>Day 1</td>
+                </tr>
+                <tr>
+                    <td>Co-Founder/COO</td>
+                    <td>1</td>
+                    <td>As per equity structure</td>
+                    <td>Day 1</td>
+                </tr>
+                <tr>
+                    <td>Production Manager</td>
+                    <td>1</td>
+                    <td>30,000 - 50,000</td>
+                    <td>Month 3</td>
+                </tr>
+                <tr>
+                    <td>Quality Control Manager</td>
+                    <td>1</td>
+                    <td>25,000 - 40,000</td>
+                    <td>Month 4</td>
+                </tr>
+                <tr>
+                    <td>Production Workers (Skilled)</td>
+                    <td>3-5</td>
+                    <td>15,000 - 20,000 each</td>
+                    <td>Month 4-6</td>
+                </tr>
+                <tr>
+                    <td>Production Workers (Unskilled)</td>
+                    <td>3-5</td>
+                    <td>10,000 - 15,000 each</td>
+                    <td>Month 4-6</td>
+                </tr>
+                <tr>
+                    <td>Sales Manager</td>
+                    <td>1</td>
+                    <td>40,000 - 60,000 + incentives</td>
+                    <td>Month 6</td>
+                </tr>
+                <tr>
+                    <td>Marketing Manager</td>
+                    <td>1</td>
+                    <td>35,000 - 55,000</td>
+                    <td>Month 6</td>
+                </tr>
+                <tr>
+                    <td>CTO/Tech Lead</td>
+                    <td>1</td>
+                    <td>50,000 - 1,00,000</td>
+                    <td>Month 6-9</td>
+                </tr>
+                <tr>
+                    <td>CFO/Finance Manager</td>
+                    <td>1</td>
+                    <td>50,000 - 80,000</td>
+                    <td>Month 9-12</td>
+                </tr>
+                <tr>
+                    <td>Sales Representatives</td>
+                    <td>5-10</td>
+                    <td>20,000 - 30,000 + incentives</td>
+                    <td>Month 9-12</td>
+                </tr>
+                <tr>
+                    <td>HR Manager</td>
+                    <td>1</td>
+                    <td>30,000 - 50,000</td>
+                    <td>Year 2</td>
+                </tr>
+                <tr>
+                    <td>Admin/Accounts Staff</td>
+                    <td>2-3</td>
+                    <td>15,000 - 25,000</td>
+                    <td>Year 1-2</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Finance & Pricing Tab -->
+        <div id="finance" class="tab-content">
+            <h2>💰 Financial Planning & Pricing Strategy</h2>
+            
+            <h3>Initial Investment Breakdown</h3>
+            
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <span class="stat-number">₹50L-1Cr</span>
+                    <span class="stat-label">Minimum Investment</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">₹2-5Cr</span>
+                    <span class="stat-label">Full Manufacturing Setup</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">50-60%</span>
+                    <span class="stat-label">Target Gross Margin</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">18-24</span>
+                    <span class="stat-label">Months to Break-even</span>
+                </div>
+            </div>
+            
+            <h3>Phase-wise Capital Requirement</h3>
+            <table>
+                <tr>
+                    <th>Phase</th>
+                    <th>Investment (₹)</th>
+                    <th>Use of Funds</th>
+                </tr>
+                <tr>
+                    <td><strong>Phase 1: Foundation (0-3 months)</strong></td>
+                    <td>5-10 lakhs</td>
+                    <td>Company registration, licenses (FSSAI, GST), market research, recipe development, initial inventory</td>
+                </tr>
+                <tr>
+                    <td><strong>Phase 2: Setup (3-6 months)</strong></td>
+                    <td>20-40 lakhs</td>
+                    <td>Facility rental (deposit + 6 months), machinery (if owned) OR co-packer tie-up, packaging design, raw materials</td>
+                </tr>
+                <tr>
+                    <td><strong>Phase 3: Pre-Launch (6-9 months)</strong></td>
+                    <td>15-25 lakhs</td>
+                    <td>Pilot production, marketing materials, website, initial inventory (10,000+ units), sampling, team salaries</td>
+                </tr>
+                <tr>
+                    <td><strong>Phase 4: Launch (9-12 months)</strong></td>
+                    <td>20-35 lakhs</td>
+                    <td>Scaled production, distribution network setup, marketing campaigns, e-commerce setup, working capital</td>
+                </tr>
+                <tr>
+                    <td><strong>Total Year 1</strong></td>
+                    <td><strong>60 lakhs - 1.1 Crore</strong></td>
+                    <td>Complete setup for initial market entry</td>
+                </tr>
+                <tr>
+                    <td><strong>Year 2 Expansion</strong></td>
+                    <td>1-2 Crores</td>
+                    <td>Geographic expansion, new products, increased production capacity, team scaling</td>
+                </tr>
+            </table>
+            
+            <h3>Detailed Cost Structure (Per Product)</h3>
+            
+            <h4>Makhana - Cost Breakdown (Per Kg Finished Product)</h4>
+            <table>
+                <tr>
+                    <th>Cost Component</th>
+                    <th>Amount (₹)</th>
+                    <th>% of Total</th>
+                </tr>
+                <tr>
+                    <td>Raw Makhana Seeds (1.3 kg for 1 kg finished)</td>
+                    <td>130-150</td>
+                    <td>35-40%</td>
+                </tr>
+                <tr>
+                    <td>Flavoring (Oil, Spices, Salt)</td>
+                    <td>20-30</td>
+                    <td>5-8%</td>
+                </tr>
+                <tr>
+                    <td>Packaging (Pouch, Label, Carton)</td>
+                    <td>40-60</td>
+                    <td>10-15%</td>
+                </tr>
+                <tr>
+                    <td>Labor (Direct Production)</td>
+                    <td>25-35</td>
+                    <td>7-9%</td>
+                </tr>
+                <tr>
+                    <td>Utilities (Electricity, Fuel)</td>
+                    <td>15-20</td>
+                    <td>4-5%</td>
+                </tr>
+                <tr>
+                    <td>Overhead (Rent, Admin, QC)</td>
+                    <td>30-40</td>
+                    <td>8-10%</td>
+                </tr>
+                <tr>
+                    <td><strong>Total Production Cost</strong></td>
+                    <td><strong>260-335</strong></td>
+                    <td><strong>100%</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Wholesale Price (to retailer)</strong></td>
+                    <td><strong>400-450</strong></td>
+                    <td><strong>Margin: 20-35%</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>MRP (Retail)</strong></td>
+                    <td><strong>600-750</strong></td>
+                    <td><strong>Retailer Margin: 33-40%</strong></td>
+                </tr>
+            </table>
+            
+            <h4>Thekua - Cost Breakdown (Per Kg)</h4>
+            <table>
+                <tr>
+                    <th>Cost Component</th>
+                    <th>Amount (₹)</th>
+                    <th>% of Total</th>
+                </tr>
+                <tr>
+                    <td>Wheat Flour</td>
+                    <td>35-45</td>
+                    <td>20-25%</td>
+                </tr>
+                <tr>
+                    <td>Jaggery/Sugar</td>
+                    <td>30-40</td>
+                    <td>15-20%</td>
+                </tr>
+                <tr>
+                    <td>Ghee/Oil</td>
+                    <td>40-60</td>
+                    <td>20-28%</td>
+                </tr>
+                <tr>
+                    <td>Spices (Cardamom, etc.)</td>
+                    <td>10-15</td>
+                    <td>5-7%</td>
+                </tr>
+                <tr>
+                    <td>Packaging</td>
+                    <td>30-40</td>
+                    <td>15-18%</td>
+                </tr>
+                <tr>
+                    <td>Labor + Utilities + Overhead</td>
+                    <td>30-40</td>
+                    <td>15-20%</td>
+                </tr>
+                <tr>
+                    <td><strong>Total Production Cost</strong></td>
+                    <td><strong>175-240</strong></td>
+                    <td><strong>100%</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Wholesale Price</strong></td>
+                    <td><strong>280-350</strong></td>
+                    <td><strong>Margin: 25-40%</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>MRP (Retail)</strong></td>
+                    <td><strong>400-500</strong></td>
+                    <td><strong>Retailer Margin: 30-35%</strong></td>
+                </tr>
+            </table>
+            
+            <h4>Sattu - Cost Breakdown (Per Kg Powder)</h4>
+            <table>
+                <tr>
+                    <th>Cost Component</th>
+                    <th>Amount (₹)</th>
+                    <th>% of Total</th>
+                </tr>
+                <tr>
+                    <td>Chana Dal (1.2 kg for 1kg sattu)</td>
+                    <td>75-90</td>
+                    <td>50-55%</td>
+                </tr>
+                <tr>
+                    <td>Packaging (500g pouches × 2)</td>
+                    <td>20-30</td>
+                    <td>12-18%</td>
+                </tr>
+                <tr>
+                    <td>Processing (Roasting, Grinding)</td>
+                    <td>20-30</td>
+                    <td>12-18%</td>
+                </tr>
+                <tr>
+                    <td>Labor + Utilities + Overhead</td>
+                    <td>20-30</td>
+                    <td>12-18%</td>
+                </tr>
+                <tr>
+                    <td><strong>Total Production Cost</strong></td>
+                    <td><strong>135-180</strong></td>
+                    <td><strong>100%</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Wholesale Price</strong></td>
+                    <td><strong>220-280</strong></td>
+                    <td><strong>Margin: 35-50%</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>MRP (Retail)</strong></td>
+                    <td><strong>300-400</strong></td>
+                    <td><strong>Retailer Margin: 30-35%</strong></td>
+                </tr>
+            </table>
+            
+            <h4>Mathri/Nimki - Cost Breakdown (Per Kg)</h4>
+            <table>
+                <tr>
+                    <th>Cost Component</th>
+                    <th>Amount (₹)</th>
+                    <th>% of Total</th>
+                </tr>
+                <tr>
+                    <td>Maida/Atta</td>
+                    <td>30-40</td>
+                    <td>25-30%</td>
+                </tr>
+                <tr>
+                    <td>Ghee/Oil (for dough & frying)</td>
+                    <td>40-50</td>
+                    <td>30-35%</td>
+                </tr>
+                <tr>
+                    <td>Spices (Ajwain, etc.)</td>
+                    <td>10-15</td>
+                    <td>7-10%</td>
+                </tr>
+                <tr>
+                    <td>Packaging</td>
+                    <td>25-35</td>
+                    <td>18-22%</td>
+                </tr>
+                <tr>
+                    <td>Labor + Utilities + Overhead</td>
+                    <td>25-35</td>
+                    <td>18-22%</td>
+                </tr>
+                <tr>
+                    <td><strong>Total Production Cost</strong></td>
+                    <td><strong>130-175</strong></td>
+                    <td><strong>100%</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Wholesale Price</strong></td>
+                    <td><strong>200-260</strong></td>
+                    <td><strong>Margin: 35-45%</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>MRP (Retail)</strong></td>
+                    <td><strong>280-380</strong></td>
+                    <td><strong>Retailer Margin: 30-40%</strong></td>
+                </tr>
+            </table>
+            
+            <h3>Pricing Strategy Framework</h3>
+            
+            <div class="company-card">
+                <h4>1. Cost-Plus Pricing (Foundation)</h4>
+                <ul>
+                    <li>Calculate full cost: Raw material + Labor + Overhead + Packaging</li>
+                    <li>Add desired margin: 40-60% gross margin target</li>
+                    <li>Example: If total cost = ₹200/kg, target selling price = ₹280-320/kg (wholesale)</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>2. Competitive Pricing (Market Positioning)</h4>
+                <ul>
+                    <li><strong>Premium Strategy:</strong> Price 15-25% above market leader if quality/uniqueness justifies
+                        <ul>
+                            <li>Example: If Mr. Makhana sells at ₹600/kg, position at ₹690-750/kg with superior ingredients</li>
+                        </ul>
+                    </li>
+                    <li><strong>Parity Strategy:</strong> Match competitor pricing, differentiate on other factors
+                        <ul>
+                            <li>Example: Match Farmley's pricing but offer better packaging or more variants</li>
+                        </ul>
+                    </li>
+                    <li><strong>Penetration Strategy:</strong> Price 10-20% below competitors to gain initial market share
+                        <ul>
+                            <li>Risk: Lower margins initially, brand perception challenges</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>3. Value-Based Pricing (Customer Perception)</h4>
+                <ul>
+                    <li>Assess what customers willing to pay based on:
+                        <ul>
+                            <li>Health benefits (organic, preservative-free, natural)</li>
+                            <li>Convenience (ready-to-eat, portion control packs)</li>
+                            <li>Brand story (authentic Bihar recipe, farmer partnerships)</li>
+                            <li>Taste & quality superiority</li>
+                        </ul>
+                    </li>
+                    <li>Example: Organic makhana can command 30-40% premium over regular</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>4. Channel-Specific Pricing</h4>
+                <table>
+                    <tr>
+                        <th>Channel</th>
+                        <th>Pricing Approach</th>
+                        <th>Margin</th>
+                    </tr>
+                    <tr>
+                        <td>Modern Trade (Big Bazaar, DMart)</td>
+                        <td>Lowest wholesale price (volume play)</td>
+                        <td>20-25% your margin</td>
+                    </tr>
+                    <tr>
+                        <td>Traditional Retail (Kirana)</td>
+                        <td>Standard wholesale price</td>
+                        <td>25-30% your margin</td>
+                    </tr>
+                    <tr>
+                        <td>E-commerce (Amazon, Flipkart)</td>
+                        <td>Slightly higher (after platform commission 15-25%)</td>
+                        <td>30-35% net margin</td>
+                    </tr>
+                    <tr>
+                        <td>Direct-to-Consumer (Own Website)</td>
+                        <td>Highest price (no middlemen)</td>
+                        <td>45-55% margin</td>
+                    </tr>
+                    <tr>
+                        <td>Wholesale Distributors</td>
+                        <td>Ex-factory price + 8-12% distribution margin</td>
+                        <td>22-28% your margin</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <h3>Revenue Projections (3-Year Forecast)</h3>
+            
+            <table>
+                <tr>
+                    <th>Metric</th>
+                    <th>Year 1</th>
+                    <th>Year 2</th>
+                    <th>Year 3</th>
+                </tr>
+                <tr>
+                    <td>Monthly Production (All Products)</td>
+                    <td>10-15 tons</td>
+                    <td>25-40 tons</td>
+                    <td>50-80 tons</td>
+                </tr>
+                <tr>
+                    <td>Total Revenue</td>
+                    <td>₹2-4 Crores</td>
+                    <td>₹8-15 Crores</td>
+                    <td>₹25-50 Crores</td>
+                </tr>
+                <tr>
+                    <td>Gross Margin %</td>
+                    <td>45-50%</td>
+                    <td>50-55%</td>
+                    <td>55-60%</td>
+                </tr>
+                <tr>
+                    <td>EBITDA Margin %</td>
+                    <td>0-5% (building phase)</td>
+                    <td>12-18%</td>
+                    <td>20-25%</td>
+                </tr>
+                <tr>
+                    <td>Net Profit %</td>
+                    <td>Breakeven to -10%</td>
+                    <td>8-12%</td>
+                    <td>15-20%</td>
+                </tr>
+                <tr>
+                    <td>Cumulative Investment</td>
+                    <td>₹1-1.5 Cr</td>
+                    <td>₹2.5-4 Cr</td>
+                    <td>₹4-7 Cr</td>
+                </tr>
+            </table>
+            
+            <h3>Funding Strategy</h3>
+            
+            <div class="company-card">
+                <h4>Stage 1: Bootstrapping + Friends & Family (₹10-30 lakhs)</h4>
+                <ul>
+                    <li>Personal savings of founders</li>
+                    <li>Friends and family round</li>
+                    <li>Government schemes: PMEGP, Mudra Loan (up to ₹10 lakhs)</li>
+                    <li>Use: Company setup, licenses, initial R&D</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>Stage 2: Angel Investment (₹50 lakhs - 2 Crores)</h4>
+                <ul>
+                    <li>Angel investors or angel networks</li>
+                    <li>Typical equity: 10-25% for ₹50L-1Cr</li>
+                    <li>Valuation: ₹3-8 Crores (Year 1)</li>
+                    <li>Use: Production setup, team building, launch</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>Stage 3: Series A (₹5-15 Crores)</h4>
+                <ul>
+                    <li>VC firms focusing on consumer brands/FMCG</li>
+                    <li>Examples: Fireside Ventures, Stellaris, Sauce.vc, DSG Consumer Partners</li>
+                    <li>Typical equity: 15-25%</li>
+                    <li>Milestone required: ₹5-10 Cr revenue run rate, clear product-market fit</li>
+                    <li>Use: Geographic expansion, product portfolio, brand building</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>Stage 4: Series B+ (₹25+ Crores)</h4>
+                <ul>
+                    <li>Growth stage VCs or strategic investors (FMCG companies)</li>
+                    <li>Milestone: ₹50+ Cr revenue, positive unit economics</li>
+                    <li>Use: Pan-India distribution, exports, category leadership</li>
+                </ul>
+            </div>
+            
+            <div class="highlight-box">
+                <h4>Key Financial Metrics to Track (CFO's Dashboard)</h4>
+                <ul>
+                    <li><strong>Burn Rate:</strong> Monthly cash consumption (target < ₹15-20 lakhs in Year 1)</li>
+                    <li><strong>Runway:</strong> Months of operation with current cash (maintain 12+ months)</li>
+                    <li><strong>CAC (Customer Acquisition Cost):</strong> For D2C channel (target < ₹150 per customer)</li>
+                    <li><strong>LTV (Lifetime Value):</strong> Customer repeat purchase value (target > 5x CAC)</li>
+                    <li><strong>Inventory Turnover:</strong> Times per year inventory sold (target 10-15x)</li>
+                    <li><strong>Days Inventory Outstanding:</strong> Days stock sits (target < 30 days)</li>
+                    <li><strong>Accounts Receivable Days:</strong> Payment collection time (target < 45 days)</li>
+                    <li><strong>Working Capital Ratio:</strong> Current assets/liabilities (maintain > 1.5)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Operations Tab -->
+        <div id="operations" class="tab-content">
+            <h2> Operations & Manufacturing</h2>
+            
+            <h3>Manufacturing Options</h3>
+            
+            <div class="company-card">
+                <h4>Option 1: Own Manufacturing Unit</h4>
+                <p><strong>Investment:</strong> ₹50 lakhs - ₹2 Crores | <strong>Timeline:</strong> 6-12 months</p>
+                <h5>Advantages:</h5>
+                <ul>
+                    <li>Complete control over quality, production schedule</li>
+                    <li>Higher margins (no co-packer fees)</li>
+                    <li>Intellectual property protection (recipes)</li>
+                    <li>Flexibility in product development</li>
+                    <li>Scalability on demand</li>
+                </ul>
+                <h5>Disadvantages:</h5>
+                <ul>
+                    <li>High initial capital requirement</li>
+                    <li>Fixed overhead costs (rent, utilities, maintenance)</li>
+                    <li>Need for technical expertise</li>
+                    <li>Regulatory compliance burden</li>
+                    <li>Longer setup time</li>
+                </ul>
+                <h5>Best For:</h5>
+                <p>Companies with strong funding (₹1+ Crore), long-term vision, unique processes that can't be outsourced</p>
+            </div>
+            
+            <div class="company-card">
+                <h4>Option 2: Contract Manufacturing / Co-Packing</h4>
+                <p><strong>Investment:</strong> ₹10-30 lakhs (initial inventory + setup) | <strong>Timeline:</strong> 2-4 months</p>
+                <h5>Advantages:</h5>
+                <ul>
+                    <li>Low initial investment</li>
+                    <li>Quick to market (co-packer has facility ready)</li>
+                    <li>Proven manufacturing expertise</li>
+                    <li>Scalable: produce 100 units or 10,000 units</li>
+                    <li>Focus resources on sales & marketing</li>
+                    <li>No fixed overhead</li>
+                </ul>
+                <h5>Disadvantages:</h5>
+                <ul>
+                    <li>Less control over production quality</li>
+                    <li>Co-packer fees reduce margins (₹20-50/kg typically)</li>
+                    <li>Dependency on co-packer's schedule</li>
+                    <li>Risk of recipe leakage</li>
+                    <li>Minimum order quantities (MOQs)</li>
+                </ul>
+                <h5>Best For:</h5>
+                <p>Startups, early-stage companies, testing market demand before heavy investment</p>
+                <h5>Leading Co-Packers in India:</h5>
+                <ul>
+                    <li><strong>Anant Jeet Nutriments:</strong> Snacks & chips co-packing</li>
+                    <li><strong>Popchips (Mumbai):</strong> Healthy snacking products, HACCP certified</li>
+                    <li><strong>KJS India:</strong> Contract food manufacturing & packaging</li>
+                    <li><strong>Suite42:</strong> Food contract manufacturing & NPD</li>
+                    <li><strong>Snack Innovations:</strong> Private label, turnkey solutions</li>
+                </ul>
+            </div>
+            
+            <div class="success-box">
+                <h4>✅ Recommended Hybrid Approach</h4>
+                <p><strong>Phase 1 (Year 1):</strong> Start with contract manufacturing for 2-3 products. Test market, build brand, generate revenue.</p>
+                <p><strong>Phase 2 (Year 2):</strong> Once achieving ₹5-10 Cr revenue and clear demand, invest in own facility. Keep co-packer for overflow capacity.</p>
+                <p><strong>Benefit:</strong> Minimize risk, preserve capital for marketing, scale intelligently.</p>
+            </div>
+            
+            <h3>Quality Assurance & Food Safety</h3>
+            
+            <div class="company-card">
+                <h4>HACCP Implementation (Hazard Analysis & Critical Control Points)</h4>
+                <p>Mandatory for export and recommended for all food businesses</p>
+                <h5>7 Principles:</h5>
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <strong>Conduct Hazard Analysis:</strong> Identify biological, chemical, physical hazards (e.g., contamination, allergens, foreign objects)
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <strong>Determine Critical Control Points (CCPs):</strong> E.g., frying temperature, roasting time, metal detection
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <strong>Establish Critical Limits:</strong> E.g., frying temp 170-180°C, moisture < 3%
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <strong>Establish Monitoring Procedures:</strong> Hourly temp checks, visual inspections, automated sensors
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <strong>Establish Corrective Actions:</strong> If temp drops, reheat batch; if foreign object detected, reject entire batch
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">6</div>
+                    <div class="step-content">
+                        <strong>Establish Verification Procedures:</strong> Weekly audits, third-party lab testing monthly
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">7</div>
+                    <div class="step-content">
+                        <strong>Establish Record-Keeping:</strong> Digital logs of all checks, test results, corrective actions (batch tracking)
+                    </div>
+                </div>
+            </div>
+            
+            <h3>Standard Operating Procedures (SOPs)</h3>
+            
+            <p>Minimum 20 SOPs required for food manufacturing:</p>
+            
+            <table>
+                <tr>
+                    <th>SOP Category</th>
+                    <th>Examples</th>
+                </tr>
+                <tr>
+                    <td>Incoming Inspection</td>
+                    <td>Raw material receiving, supplier verification, sampling</td>
+                </tr>
+                <tr>
+                    <td>Production</td>
+                    <td>Makhana roasting protocol, thekua frying procedure, sattu grinding process</td>
+                </tr>
+                <tr>
+                    <td>Cleaning & Sanitation</td>
+                    <td>Equipment cleaning (daily), floor cleaning (shift-wise), hand washing protocol</td>
+                </tr>
+                <tr>
+                    <td>Personal Hygiene</td>
+                    <td>Worker health checks, protective equipment use, jewelry/mobile phone restrictions</td>
+                </tr>
+                <tr>
+                    <td>Quality Control</td>
+                    <td>Sensory evaluation, weight checks, moisture testing, shelf-life sampling</td>
+                </tr>
+                <tr>
+                    <td>Packaging</td>
+                    <td>Nitrogen flushing, seal integrity check, labeling verification, batch coding</td>
+                </tr>
+                <tr>
+                    <td>Storage</td>
+                    <td>Temperature/humidity control, FIFO (First In First Out), pest control</td>
+                </tr>
+                <tr>
+                    <td>Recall Procedure</td>
+                    <td>Batch traceability, customer notification, product retrieval</td>
+                </tr>
+                <tr>
+                    <td>Waste Management</td>
+                    <td>Segregation, disposal, recycling</td>
+                </tr>
+                <tr>
+                    <td>Equipment Maintenance</td>
+                    <td>Calibration schedule, preventive maintenance, breakdown handling</td>
+                </tr>
+            </table>
+            
+            <h3>Packaging Strategy</h3>
+            
+            <div class="company-card">
+                <h4>Packaging Material Selection</h4>
+                <table>
+                    <tr>
+                        <th>Material</th>
+                        <th>Properties</th>
+                        <th>Best For</th>
+                        <th>Cost/Unit</th>
+                    </tr>
+                    <tr>
+                        <td>BOPP (Biaxially Oriented Polypropylene)</td>
+                        <td>Clear, glossy, moisture barrier</td>
+                        <td>Makhana, mathri (dry snacks)</td>
+                        <td>₹2-4 per pouch</td>
+                    </tr>
+                    <tr>
+                        <td>Metallized Film</td>
+                        <td>Light & oxygen barrier, shiny</td>
+                        <td>All products, premium look</td>
+                        <td>₹3-6 per pouch</td>
+                    </tr>
+                    <tr>
+                        <td>Kraft Paper (with inner liner)</td>
+                        <td>Eco-friendly, natural look</td>
+                        <td>Organic/premium variants, sattu</td>
+                        <td>₹4-7 per pouch</td>
+                    </tr>
+                    <tr>
+                        <td>Stand-up Pouches</td>
+                        <td>Shelf display, resealable zip</td>
+                        <td>Premium products, larger packs</td>
+                        <td>₹5-10 per pouch</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="company-card">
+                <h4>Nitrogen Flushing</h4>
+                <p><strong>Why:</strong> Replaces oxygen, extends shelf life, prevents rancidity and staleness</p>
+                <p><strong>Process:</strong> Inject nitrogen gas before sealing, oxygen level < 2%</p>
+                <p><strong>Equipment:</strong> ₹50,000-2,00,000 for nitrogen generator + flushing nozzle</p>
+                <p><strong>Result:</strong> Shelf life increases from 30-60 days to 6-9 months</p>
+            </div>
+            
+            <div class="company-card">
+                <h4>Labeling Requirements (Legal Metrology + FSSAI)</h4>
+                <p>Every package must have:</p>
+                <ul>
+                    <li><strong>Brand Name & Product Name:</strong> Prominent, clear</li>
+                    <li><strong>List of Ingredients:</strong> In descending order by weight</li>
+                    <li><strong>Nutritional Information:</strong> Energy, protein, carbs, fat, sodium (per 100g)</li>
+                    <li><strong>Allergen Declaration:</strong> "Contains: Wheat, Nuts" etc.</li>
+                    <li><strong>Net Weight:</strong> Accurate to ±2-3% tolerance</li>
+                    <li><strong>MRP (Maximum Retail Price):</strong> "MRP ₹ XX (Inclusive of all taxes)"</li>
+                    <li><strong>Manufacturing Date & Best Before:</strong> Clearly visible</li>
+                    <li><strong>Batch Code:</strong> Unique for each production batch</li>
+                    <li><strong>FSSAI License Number:</strong> 14-digit number with logo</li>
+                    <li><strong>Manufacturer Details:</strong> Name, address, contact</li>
+                    <li><strong>Country of Origin:</strong> "Made in India"</li>
+                    <li><strong>Customer Care:</strong> Phone/email for complaints</li>
+                    <li><strong>Vegetarian/Non-Veg Symbol:</strong> Green dot for veg</li>
+                </ul>
+            </div>
+            
+            <h3>Supply Chain & Distribution</h3>
+            
+            <div class="company-card">
+                <h4>Distribution Channel Strategy</h4>
+                <table>
+                    <tr>
+                        <th>Channel</th>
+                        <th>Reach</th>
+                        <th>Margin Structure</th>
+                        <th>Payment Terms</th>
+                    </tr>
+                    <tr>
+                        <td>Modern Trade (Big Bazaar, DMart, Reliance)</td>
+                        <td>High footfall, 100-500 stores</td>
+                        <td>Retailer: 15-25% margin. Listing fees: ₹50,000-5 lakhs</td>
+                        <td>60-90 days credit</td>
+                    </tr>
+                    <tr>
+                        <td>Traditional Retail (Kirana Stores)</td>
+                        <td>Hyper-local, 500-5000 stores</td>
+                        <td>Retailer: 10-15%. Via distributor: 8-12% to distributor, 10-15% to retailer</td>
+                        <td>15-30 days credit to distributor</td>
+                    </tr>
+                    <tr>
+                        <td>E-commerce (Amazon, Flipkart, BigBasket)</td>
+                        <td>Pan-India, 24/7 availability</td>
+                        <td>Platform: 15-25% commission. Returns: 2-5%</td>
+                        <td>15-30 days post delivery</td>
+                    </tr>
+                    <tr>
+                        <td>Quick Commerce (Blinkit, Zepto, Instamart)</td>
+                        <td>Urban metros, 10-30 min delivery</td>
+                        <td>Platform: 20-30%. Returns: 3-7%</td>
+                        <td>30-45 days</td>
+                    </tr>
+                    <tr>
+                        <td>Direct-to-Consumer (Own Website)</td>
+                        <td>Niche, brand loyalists</td>
+                        <td>No middleman. Payment gateway: 2-3%</td>
+                        <td>Instant (prepaid)</td>
+                    </tr>
+                    <tr>
+                        <td>Wholesale Distributors</td>
+                        <td>Bulk orders, B2B</td>
+                        <td>8-12% margin to distributor</td>
+                        <td>30-45 days credit</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="company-card">
+                <h4>Logistics & Warehousing</h4>
+                <p><strong>Primary Storage (at factory):</strong> 500-1000 sq ft, climate controlled</p>
+                <p><strong>Secondary Warehousing:</strong> Near distribution hubs (Delhi, Mumbai, Bangalore)</p>
+                <ul>
+                    <li><strong>Option 1:</strong> Own warehouse (₹50-100/sq ft rent per month)</li>
+                    <li><strong>Option 2:</strong> 3PL providers (Safexpress, Delhivery, Shadowfax) - ₹15-30/kg handling</li>
+                </ul>
+                <p><strong>Transportation:</strong></p>
+                <ul>
+                    <li>Local delivery: Own vehicle or courier (₹30-50/kg)</li>
+                    <li>Inter-city: Transport companies (₹8-15/kg)</li>
+                    <li>Last-mile (e-commerce): Tied to platform logistics</li>
+                </ul>
+            </div>
+            
+            <h3>Marketing & Sales Operations</h3>
+            
+            <div class="company-card">
+                <h4>Digital Marketing Plan</h4>
+                <p><strong>Month 1-3: Brand Building</strong></p>
+                <ul>
+                    <li>Website launch with e-commerce capability</li>
+                    <li>Social media setup: Instagram (primary), Facebook, YouTube</li>
+                    <li>Content: Product photos, behind-the-scenes, recipes, health benefits</li>
+                    <li>Influencer outreach: 10-15 micro-influencers (10K-50K followers)</li>
+                    <li>Budget: ₹50,000-1,00,000</li>
+                </ul>
+                
+                <p><strong>Month 4-6: Awareness</strong></p>
+                <ul>
+                    <li>Google Ads: Search campaigns for "buy makhana online", "thekua delivery"</li>
+                    <li>Facebook & Instagram Ads: Targeted at health-conscious, urban audience</li>
+                    <li>YouTube: Recipe videos, brand story</li>
+                    <li>PR: Food bloggers, journalists</li>
+                    <li>Budget: ₹2-3 lakhs per month</li>
+                </ul>
+                
+                <p><strong>Month 7-12: Conversion</strong></p>
+                <ul>
+                    <li>Retargeting ads for website visitors</li>
+                    <li>Email marketing: Newsletter, offers</li>
+                    <li>Amazon & Flipkart advertising</li>
+                    <li>Sampling campaigns at malls, offices</li>
+                    <li>Festival campaigns (Diwali, Chhath Puja)</li>
+                    <li>Budget: ₹3-5 lakhs per month</li>
+                </ul>
+            </div>
+            
+            <div class="company-card">
+                <h4>Offline Marketing</h4>
+                <ul>
+                    <li><strong>In-store promotions:</strong> Demos, tastings at retail stores</li>
+                    <li><strong>Point-of-sale materials:</strong> Shelf talkers, danglers, standees</li>
+                    <li><strong>Trade shows:</strong> AAHAR (food fair), regional exhibitions</li>
+                    <li><strong>Print ads:</strong> Local newspapers, magazines (lower priority)</li>
+                </ul>
+            </div>
+            
+            <div class="success-box">
+                <h4>🎯 Key Success Factors</h4>
+                <ul>
+                    <li><strong>Quality Consistency:</strong> Every batch should taste the same - critical for repeat purchases</li>
+                    <li><strong>Distribution Density:</strong> Be available where your customer shops</li>
+                    <li><strong>Brand Story:</strong> Authentic Bihar roots, traditional recipes, farmer partnerships</li>
+                    <li><strong>Innovation:</strong> New flavors, formats (bars, mixes) to stay relevant</li>
+                    <li><strong>Customer Feedback:</strong> Listen and iterate quickly</li>
+                    <li><strong>Unit Economics:</strong> Profitable per unit before scaling</li>
+                    <li><strong>Team:</strong> Hire passionate, experienced people in key roles</li>
+                    <li><strong>Capital Efficiency:</strong> Stretch every rupee, avoid wasteful spending</li>
+                </ul>
+            </div>
+        </div>
+        
+        <script>
+            function showTab(tabName) {
+                // Hide all tabs
+                const tabs = document.querySelectorAll('.tab-content');
+                tabs.forEach(tab => tab.classList.remove('active'));
+                
+                // Remove active class from all buttons
+                const buttons = document.querySelectorAll('.tab-button');
+                buttons.forEach(btn => btn.classList.remove('active'));
+                
+                // Show selected tab
+                document.getElementById(tabName).classList.add('active');
+                
+                // Add active class to clicked button
+                event.target.classList.add('active');
+                
+                // Scroll to top
+                window.scrollTo({top: 0, behavior: 'smooth'});
+            }
+        </script>
+    </div>
+</body>
+</html>
